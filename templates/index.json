@@ -29,6 +29,7 @@
         },
         "resume_study_flow_phase_4": {
             "type": "resume-study-flow",
+            "disabled": true,
             "blocks": {
                 "study_flow_organizar": {
                     "type": "step",
@@ -91,6 +92,7 @@
         },
         "resume_app_features_phase_2": {
             "type": "resume-app-features",
+            "disabled": true,
             "blocks": {
                 "feature_resumi_ia": {
                     "type": "feature",
@@ -187,6 +189,61 @@
                 "reason_3_text": "Pratica antes das avaliações com mais confiança."
             }
         },
+        "resume_home_options_phase_6": {
+            "type": "resume-home-options",
+            "blocks": {
+                "home_option_app": {
+                    "type": "option",
+                    "settings": {
+                        "symbol": "APP",
+                        "title": "Usar a app",
+                        "text": "Organizar estudo, rever com IA, fazer quizzes e treinar.",
+                        "link": ""
+                    }
+                },
+                "home_option_resumos": {
+                    "type": "option",
+                    "settings": {
+                        "symbol": "R",
+                        "title": "Comprar resumos",
+                        "text": "Materiais prontos por disciplina para estudar sem perder tempo.",
+                        "link": "shopify:\/\/collections"
+                    }
+                },
+                "home_option_explicacoes": {
+                    "type": "option",
+                    "settings": {
+                        "symbol": "?",
+                        "title": "Pedir explicações",
+                        "text": "Apoio extra quando precisas de ajuda personalizada.",
+                        "link": "shopify:\/\/collections\/explicacoes"
+                    }
+                },
+                "home_option_media": {
+                    "type": "option",
+                    "settings": {
+                        "symbol": "%",
+                        "title": "Calcular média",
+                        "text": "Simula notas e percebe melhor os próximos passos.",
+                        "link": "shopify:\/\/pages\/calculadora-2026"
+                    }
+                }
+            },
+            "block_order": [
+                "home_option_app",
+                "home_option_resumos",
+                "home_option_explicacoes",
+                "home_option_media"
+            ],
+            "settings": {
+                "eyebrow": "Escolhe o teu caminho",
+                "title": "O que queres fazer hoje?",
+                "text": "<p>Depois do banner, a página fica mais direta: app, resumos, explicações ou calculadora. Menos repetição, mais ação.<\/p>",
+                "background_color": "#fbfaf7",
+                "text_color": "#2b2520",
+                "accent_color": "#756251"
+            }
+        },
         "resume_shop_highlight_phase_2": {
             "type": "resume-shop-highlight",
             "settings": {
@@ -205,6 +262,80 @@
                 "accent_color": "#756251"
             }
         },
+        "resume_subject_hub_phase_7": {
+            "type": "resume-subject-hub",
+            "blocks": {
+                "subject_bg": {
+                    "type": "subject",
+                    "settings": {
+                        "symbol": "BG",
+                        "title": "Biologia e Geologia",
+                        "text": "Resumos e apoio para secundário.",
+                        "link": "shopify:\/\/collections\/resumos-bg"
+                    }
+                },
+                "subject_mat": {
+                    "type": "subject",
+                    "settings": {
+                        "symbol": "MAT",
+                        "title": "Matemática A",
+                        "text": "Revisão e prática por temas.",
+                        "link": "shopify:\/\/collections\/resumos-mat"
+                    }
+                },
+                "subject_pt": {
+                    "type": "subject",
+                    "settings": {
+                        "symbol": "PT",
+                        "title": "Português",
+                        "text": "Conteúdos para testes e exame.",
+                        "link": "shopify:\/\/collections\/resumos-pt"
+                    }
+                },
+                "subject_fq": {
+                    "type": "subject",
+                    "settings": {
+                        "symbol": "FQ",
+                        "title": "Física e Química",
+                        "text": "Matéria organizada para rever.",
+                        "link": "shopify:\/\/collections\/resumos-fq"
+                    }
+                },
+                "subject_exames": {
+                    "type": "subject",
+                    "settings": {
+                        "symbol": "EX",
+                        "title": "Exames",
+                        "text": "Preparação para momentos decisivos.",
+                        "link": "shopify:\/\/collections\/resumos-exame-de-conducao"
+                    }
+                },
+                "subject_exp": {
+                    "type": "subject",
+                    "settings": {
+                        "symbol": "?",
+                        "title": "Explicações",
+                        "text": "Apoio quando precisas de ajuda.",
+                        "link": "shopify:\/\/collections\/explicacoes"
+                    }
+                }
+            },
+            "block_order": [
+                "subject_bg",
+                "subject_mat",
+                "subject_pt",
+                "subject_fq",
+                "subject_exames",
+                "subject_exp"
+            ],
+            "settings": {
+                "eyebrow": "Escolhe por disciplina",
+                "title": "Vai direto à matéria que precisas.",
+                "background_color": "#fbfaf7",
+                "text_color": "#2b2520",
+                "accent_color": "#756251"
+            }
+        },
         "resume_featured_products_phase_5": {
             "type": "resume-featured-products",
             "settings": {
@@ -219,6 +350,42 @@
                 "button_label": "Ver todos os resumos",
                 "button_link": "shopify:\/\/collections",
                 "background_color": "#ffffff",
+                "text_color": "#2b2520",
+                "accent_color": "#756251"
+            }
+        },
+        "resume_support_tools_phase_7": {
+            "type": "resume-support-tools",
+            "blocks": {
+                "support_exp": {
+                    "type": "tool",
+                    "settings": {
+                        "symbol": "?",
+                        "title": "Explicações quando a matéria não entra.",
+                        "text": "Um caminho claro para pedir ajuda sem misturar esta oferta com os resumos.",
+                        "button_label": "Ver explicações",
+                        "button_link": "shopify:\/\/collections\/explicacoes"
+                    }
+                },
+                "support_media": {
+                    "type": "tool",
+                    "settings": {
+                        "symbol": "%",
+                        "title": "Calcula a média e planeia o próximo passo.",
+                        "text": "A calculadora ganha destaque como ferramenta útil, sem parecer uma secção solta.",
+                        "button_label": "Calcular média",
+                        "button_link": "shopify:\/\/pages\/calculadora-2026"
+                    }
+                }
+            },
+            "block_order": [
+                "support_exp",
+                "support_media"
+            ],
+            "settings": {
+                "eyebrow": "Apoio extra",
+                "title": "Quando precisas de mais do que resumos.",
+                "background_color": "#fbfaf7",
                 "text_color": "#2b2520",
                 "accent_color": "#756251"
             }
@@ -1128,6 +1295,7 @@
                 "text_nX6bf9",
                 "button_XChxtm"
             ],
+            "disabled": true,
             "name": "t:names.rich_text_section",
             "settings": {
                 "content_direction": "column",
@@ -1654,6 +1822,7 @@
             "block_order": [
                 "slide_FmxF93"
             ],
+            "disabled": true,
             "name": "t:names.slideshow_inset",
             "settings": {
                 "display_mode": "with_hints",
@@ -2360,10 +2529,13 @@
     },
     "order": [
         "resume_app_hero_phase_2",
-        "resume_study_flow_phase_4",
-        "resume_app_features_phase_2",
+        "resume_home_options_phase_6",
+        "resume_subject_hub_phase_7",
         "resume_shop_highlight_phase_2",
         "resume_featured_products_phase_5",
+        "resume_support_tools_phase_7",
+        "resume_study_flow_phase_4",
+        "resume_app_features_phase_2",
         "product_list_UwRqN4",
         "slideshow_86mFhD",
         "section_tzG4pH",

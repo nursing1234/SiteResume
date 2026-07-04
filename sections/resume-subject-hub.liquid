@@ -1,0 +1,190 @@
+<section class="resume-subject-hub resume-subject-hub-{{ section.id }}">
+  <div class="resume-subject-hub__inner">
+    <div class="resume-subject-hub__header">
+      {% if section.settings.eyebrow != blank %}
+        <p>{{ section.settings.eyebrow | escape }}</p>
+      {% endif %}
+      {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title | escape }}</h2>
+      {% endif %}
+    </div>
+
+    <div class="resume-subject-hub__grid">
+      {% for block in section.blocks %}
+        <a class="resume-subject-hub__card" href="{{ block.settings.link | default: '#' }}" {{ block.shopify_attributes }}>
+          <span>{{ block.settings.symbol | escape }}</span>
+          <strong>{{ block.settings.title | escape }}</strong>
+          <small>{{ block.settings.text | escape }}</small>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .resume-subject-hub-{{ section.id }} {
+    --resume-subject-bg: {{ section.settings.background_color }};
+    --resume-subject-text: {{ section.settings.text_color }};
+    --resume-subject-accent: {{ section.settings.accent_color }};
+    background: var(--resume-subject-bg);
+    color: var(--resume-subject-text);
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__inner {
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 34px 0 56px;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__header {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__header p {
+    margin: 0;
+    color: var(--resume-subject-accent);
+    font-size: 0.78rem;
+    font-weight: 850;
+    text-transform: uppercase;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__header h2 {
+    max-width: 680px;
+    margin: 0;
+    color: inherit;
+    font-size: clamp(1.8rem, 3.8vw, 3rem);
+    line-height: 1.05;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__card {
+    min-height: 150px;
+    border: 1px solid color-mix(in srgb, var(--resume-subject-text) 10%, transparent);
+    border-radius: 22px;
+    padding: 18px;
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+    display: grid;
+    align-content: space-between;
+    box-shadow: 0 14px 36px rgba(70, 56, 43, 0.06);
+    transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__card:hover {
+    transform: translateY(-3px);
+    border-color: color-mix(in srgb, var(--resume-subject-accent) 28%, transparent);
+    box-shadow: 0 20px 48px rgba(70, 56, 43, 0.11);
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__card span {
+    width: fit-content;
+    border-radius: 999px;
+    padding: 7px 10px;
+    background: color-mix(in srgb, var(--resume-subject-accent) 11%, #ffffff);
+    color: var(--resume-subject-accent);
+    font-size: 0.78rem;
+    font-weight: 900;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__card strong {
+    margin-top: 22px;
+    color: inherit;
+    font-size: 1.1rem;
+    line-height: 1.15;
+  }
+
+  .resume-subject-hub-{{ section.id }} .resume-subject-hub__card small {
+    margin-top: 8px;
+    color: color-mix(in srgb, var(--resume-subject-text) 62%, transparent);
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  @media screen and (min-width: 860px) {
+    .resume-subject-hub-{{ section.id }} .resume-subject-hub__grid {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Resume subject hub",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta",
+      "default": "Escolhe por disciplina"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titulo",
+      "default": "Vai direto à matéria que precisas."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Cor de fundo",
+      "default": "#fbfaf7"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Cor do texto",
+      "default": "#2b2520"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Cor principal",
+      "default": "#756251"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "subject",
+      "name": "Disciplina",
+      "settings": [
+        {
+          "type": "text",
+          "id": "symbol",
+          "label": "Simbolo",
+          "default": "BG"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titulo",
+          "default": "Disciplina"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texto",
+          "default": "Resumos e materiais."
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Resume subject hub"
+    }
+  ]
+}
+{% endschema %}

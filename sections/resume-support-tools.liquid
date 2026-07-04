@@ -1,0 +1,197 @@
+<section class="resume-support-tools resume-support-tools-{{ section.id }}">
+  <div class="resume-support-tools__inner">
+    <div class="resume-support-tools__header">
+      <p>{{ section.settings.eyebrow | escape }}</p>
+      <h2>{{ section.settings.title | escape }}</h2>
+    </div>
+
+    <div class="resume-support-tools__grid">
+      {% for block in section.blocks %}
+        <article class="resume-support-tools__card" {{ block.shopify_attributes }}>
+          <span>{{ block.settings.symbol | escape }}</span>
+          <h3>{{ block.settings.title | escape }}</h3>
+          <p>{{ block.settings.text | escape }}</p>
+          {% if block.settings.button_label != blank %}
+            <a href="{{ block.settings.button_link | default: '#' }}">{{ block.settings.button_label | escape }}</a>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .resume-support-tools-{{ section.id }} {
+    --resume-support-bg: {{ section.settings.background_color }};
+    --resume-support-text: {{ section.settings.text_color }};
+    --resume-support-accent: {{ section.settings.accent_color }};
+    background: var(--resume-support-bg);
+    color: var(--resume-support-text);
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__inner {
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 54px 0 68px;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__header {
+    margin-bottom: 18px;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__header p {
+    margin: 0 0 10px;
+    color: var(--resume-support-accent);
+    font-size: 0.78rem;
+    font-weight: 850;
+    text-transform: uppercase;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__header h2 {
+    max-width: 720px;
+    margin: 0;
+    color: inherit;
+    font-size: clamp(1.9rem, 4vw, 3.2rem);
+    line-height: 1.06;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__card {
+    border-radius: 28px;
+    padding: 26px;
+    background: #ffffff;
+    border: 1px solid color-mix(in srgb, var(--resume-support-text) 10%, transparent);
+    box-shadow: 0 16px 46px rgba(70, 56, 43, 0.07);
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__card span {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+    background: color-mix(in srgb, var(--resume-support-accent) 12%, #ffffff);
+    color: var(--resume-support-accent);
+    font-weight: 900;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__card h3 {
+    margin: 0;
+    color: inherit;
+    font-size: clamp(1.45rem, 3vw, 2.25rem);
+    line-height: 1.08;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__card p {
+    max-width: 560px;
+    margin: 14px 0 22px;
+    color: color-mix(in srgb, var(--resume-support-text) 66%, transparent);
+    line-height: 1.5;
+  }
+
+  .resume-support-tools-{{ section.id }} .resume-support-tools__card a {
+    min-height: 46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 0 18px;
+    background: var(--resume-support-accent);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 850;
+  }
+
+  @media screen and (min-width: 800px) {
+    .resume-support-tools-{{ section.id }} .resume-support-tools__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Resume support tools",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta",
+      "default": "Apoio extra"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titulo",
+      "default": "Quando precisas de mais do que resumos."
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Cor de fundo",
+      "default": "#fbfaf7"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Cor do texto",
+      "default": "#2b2520"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Cor principal",
+      "default": "#756251"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tool",
+      "name": "Ferramenta",
+      "settings": [
+        {
+          "type": "text",
+          "id": "symbol",
+          "label": "Simbolo",
+          "default": "?"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titulo",
+          "default": "Ferramenta"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texto",
+          "default": "Explica a ferramenta."
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Texto do botao",
+          "default": "Ver"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Link do botao"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Resume support tools"
+    }
+  ]
+}
+{% endschema %}
