@@ -1,0 +1,438 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+:root {
+    --primary: #4e8793;
+    --secondary: #64748b;
+    --bg: #f8fafc;
+    --border: #e2e8f0;
+    --accent: #152136;
+    --success: #16a34a; /* Cor para melhorias */
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: 20px;
+    background: var(--bg);
+    color: var(--primary);
+    overflow-x: hidden;
+}
+
+.container { 
+    max-width: 1100px;
+    width: 95%;
+    margin: 0 auto; 
+    padding: 10px 0;
+}
+
+header { 
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+header h1 {
+    font-size: 2.5rem; /* Aumentei um pouco o tamanho também */
+    color: #4e8793;
+    margin-bottom: 5px;
+    font-weight: 800;   /* Este é o comando para o negrito forte */
+    letter-spacing: -0.5px; /* Opcional: deixa o título mais moderno */
+}
+
+/* Cards com Efeito Glass */
+.glass-card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    margin-bottom: 25px;
+    width: 100%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+/* Grelha de Configuração (Curso/Ano) */
+.config-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.input-group { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px; 
+}
+
+label {
+    font-size: 11px;
+    font-weight: 800;
+    color: var(--secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+select, input {
+    height: 45px;
+    border-radius: 12px;
+    border: 2px solid var(--border);
+    padding: 0 12px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    transition: all 0.2s ease;
+    background: white;
+}
+
+select:focus, input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(78, 135, 147, 0.1);
+}
+
+/* --- LINHAS DA CALCULADORA (4 COLUNAS) --- */
+.row {
+    display: grid;
+    /* Disciplina (flexível) | CFD Antiga (80px) | Exame (100px) | Nova CFD (70px) */
+    grid-template-columns: 1fr 80px 100px 75px;
+    gap: 15px;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f8fafc;
+}
+
+/* Cabeçalho das colunas dentro da calculadora */
+.row[style*="font-weight: 800"] {
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.disc-name { 
+    font-weight: 850; 
+    color:  #25446e; 
+    display: block;
+    font-size: 1.2rem; /* Adicione ou altere este valor conforme desejar */
+}
+
+.cfd-badge {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid var(--border);
+    min-width: 50px;
+    transition: all 0.3s ease;
+}
+
+.cfd-badge strong {
+    font-size: 1.1rem;
+}
+
+/* Painel de Resultados Azul */
+.result-panel {
+    background: var(--primary);
+    color: white;
+    padding: 30px;
+    border-radius: 24px;
+    margin-top: 25px;
+    
+    /* Alteração aqui: de grid para flex centralizado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    box-shadow: 0 10px 15px -3px rgba(78, 135, 147, 0.4);
+}
+
+/* Se quiseres as duas médias lado a lado em ecrãs grandes */
+@media (min-width: 600px) {
+    .result-panel {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .res-item {
+        flex: 1;
+        min-width: 200px;
+    }
+}
+
+.res-item {
+    text-align: center;
+}
+
+#statusExames {
+    width: 100%; /* Força o aviso a ocupar a linha de baixo e ficar centrado */
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.res-item span {
+    font-size: 14px;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.res-item strong { 
+    font-size: 3.5rem; 
+    display: block; 
+    line-height: 1.1;
+    margin-top: 5px;
+}
+
+#statusExames {
+    grid-column: 1 / -1; /* Ocupa a largura toda no painel azul */
+    font-size: 13px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 8px 16px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+/* --- TABELA DE CURSOS --- */
+/* 1. O container que "manda" no scroll */
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto; /* ATIVA o scroll horizontal */
+    overflow-y: auto; /* Mantém o scroll vertical se a tabela for longa */
+    max-height: 600px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: white;
+    
+    /* Suaviza o scroll em iPhones/Safari */
+    -webkit-overflow-scrolling: touch; 
+}
+
+/* 2. A tabela propriamente dita */
+.fac-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* IMPORTANTE: Define uma largura mínima para a tabela. 
+       Se o ecrã for menor que 850px, o scroll horizontal aparece automaticamente. */
+    min-width: 850px; 
+}
+
+/* 3. Garante que o cabeçalho fixo (Sticky) não desaparece ao dar scroll */
+.fac-table thead th {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+    padding: 15px 10px;
+    border-bottom: 2px solid var(--border);
+    white-space: nowrap; /* Impede que os títulos dos cabeçalhos quebrem linha */
+}
+
+.fac-table td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.pills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.exame-badge {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    border: 1px solid var(--border);
+}
+
+/* --- FILTROS --- */
+.filters-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.search-box { flex: 3; min-width: 250px; }
+.filters-wrapper select { flex: 1; min-width: 160px; }
+
+/* --- RESPONSIVIDADE (TELEMÓVEL) --- */
+@media (max-width: 768px) {
+    body { padding: 10px; }
+    
+    .glass-card { padding: 15px; }
+
+    .row {
+        grid-template-columns: 1fr 60px 75px 50px;
+        gap: 8px;
+        font-size: 13px;
+    }
+
+    .row select, .row input {
+        height: 38px;
+        font-size: 12px;
+        padding: 0 5px;
+    }
+
+    .res-item strong { font-size: 2.5rem; }
+    
+    header h1 { font-size: 1.5rem; }
+}
+
+/* Estilização da Barra de Scroll */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+/* Garante que o fundo da secção onde a calculadora está é branco puro */
+body, .main-content, #MainContent, .page-width {
+    background-color: #ffffff !important;
+}
+
+/* Se a calculadora estiver dentro de um container específico do Shopify */
+.container {
+    background: #ffffff;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+</style>
+
+<div class="container">
+        <header>
+            <h1>Calculadora 2026</h1>
+        </header>
+
+        <div class="glass-card">
+            <div class="config-grid">
+                <div class="input-group">
+                    <label for="selCurso">Área</label>
+                    <select id="selCurso" onchange="gerarDisciplinas()">
+                        <option value="ct">Ciências e Tecnologias (Biologia/FQ)</option>
+                        <option value="ct_gd">Ciências e Tecnologias (Geometria/FQ)</option>
+                        <option value="eco">Ciências Socioeconómicas</option>
+                        <option value="hum">Línguas e Humanidades</option>
+                        <option value="art">Artes</option>
+                        <option value="musc">Música</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label for="selAno">Ano de escolaridade </label>
+                    <select id="selAno" onchange="gerarDisciplinas()">
+                        <option value="10">10º Ano</option>
+                        <option value="11">11º Ano</option>
+                        <option value="12">12.º Ano</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="area-disciplinas"></div>
+
+            <div class="result-panel">
+                <div class="res-item">
+                    <span>Média Interna</span>
+                    <strong id="resInterna">0.0</strong>
+                </div>
+                
+                <div class="res-item">
+                    <span>Média Final Secundário (0-200)</span>
+                    <strong id="resCandidatura">0</strong>
+                
+                </div>
+                <div id="statusExames" style="font-size: 12px; margin-top: 5px;">0/3 Exames Obrigatórios</div>
+            </div>
+        </div>
+
+        <div class="glass-card">
+            <div class="filters-wrapper">
+                <input type="text" id="txtBusca" class="search-box" 
+                       placeholder="Pesquisar curso ou universidade..." 
+                       oninput="atualizarTabelaFaculdades()">
+                
+                <select id="selCidade" onchange="atualizarTabelaFaculdades()">
+                    <option value="">Cidades (Todas)</option>
+                    <option value="Aveiro">Aveiro</option>
+                    <option value="Beja">Beja</option>
+                    <option value="Braga">Braga</option>
+                    <option value="Bragança">Bragança</option>
+                    <option value="Castelo Branco">Castelo Branco</option>
+                    <option value="Coimbra">Coimbra</option>
+                    <option value="Évora">Évora</option>
+                    <option value="Faro">Faro (Algarve)</option>
+                    <option value="Guarda">Guarda</option>
+                    <option value="Leiria">Leiria</option>
+                    <option value="Lisboa">Lisboa</option>
+                    <option value="Portalegre">Portalegre</option>
+                    <option value="Porto">Porto</option>
+                    <option value="Santarém">Santarém</option>
+                    <option value="Setúbal">Setúbal</option>
+                    <option value="Viana do Castelo">Viana do Castelo</option>
+                    <option value="Vila Real">Vila Real</option>
+                    <option value="Viseu">Viseu</option>
+                    <option value="R. A. Açores">R. A. Açores</option>
+                    <option value="R. A. Madeira">R. A. Madeira</option>
+                </select>
+
+                <select id="selArea" onchange="atualizarTabelaFaculdades()">
+                    <option value="">Áreas (Todas)</option>
+                    <option value="Saúde">Saúde</option>
+                    <option value="Engenharia">Engenharia</option>
+                    <option value="Educação">Educação</option>
+                    <option value="Economia">Economia / Gestão</option>
+                    <option value="Ciências">Ciências / Bio</option>
+                    <option value="Artes">Artes / Design</option>
+                    <option value="Direito">Direito / Sociais</option>
+                    <option value="Humanidades">Humanidades</option>
+                    <option value="Desporto">Desporto</option>
+                </select>
+
+                <select id="selProbabilidade" onchange="atualizarTabelaFaculdades()" style="padding: 10px; border-radius: 8px; border: 1px solid #e2e8f0; background: rgba(255,255,255,0.8);">
+        <option value="">Probabilidades</option>
+        <option value="alta">Alta Probabilidade</option>
+        <option value="media">Média Probabilidade</option>
+        <option value="baixa">Baixa Probabilidade</option>
+    </select>
+
+            </div>
+
+            <div class="table-wrapper">
+                <table class="fac-table">
+                    <thead>
+                    <tr style="border-bottom: 2px solid var(--border);">
+                        <th style="text-align:left; padding:10px;">Curso / Instituição</th>
+                        <th style="text-align:left; padding:10px;">Provas de ingresso</th>
+                        <th style="text-align:center; padding:10px;">Peso (S/E)</th>
+                        <th style="text-align:center; padding:10px;">Últ. Colocado</th>
+                        <th style="text-align:center; padding:10px;">Nota Candidatura</th>
+                        <th style="text-align:center; padding:10px;">Estado</th>
+                    </tr>
+                    
+                </thead>
+                <tbody id="tabelaCursos">
+                    </tbody>
+            </table>
+        </div> </div>
+    </div>
+
+
+<script src="https://cdn.shopify.com/s/files/1/0954/7841/5697/files/calculadora.js?v=1774877794" defer></script>
+<script src="https://cdn.shopify.com/s/files/1/0954/7841/5697/files/cursos_06904c15-a40b-4b7a-937d-d6dcdbc2311a.js?v=1774898501" defer></script>
+
