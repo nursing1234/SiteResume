@@ -1,1 +1,2131 @@
-{"sections":{"hero_iyt6zg":{"type":"hero","settings":{"media_type_1":"image","image_1":"shopify:\/\/shop_images\/Beige_Minimalist_Planner_Page_and_Download_Mockup_Instagram_Post_Portrait_1.png","media_type_2":"image","stack_media_on_mobile":false,"custom_mobile_media":false,"media_type_1_mobile":"image","media_type_2_mobile":"image","link":"","open_in_new_tab":false,"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"center","vertical_alignment_flex_direction_column":"center","gap":16,"section_width":"page-width","section_height":"full-screen","section_height_custom":74,"background_color":"rgba(0,0,0,0)","toggle_overlay":false,"overlay_color":"#ffffff","overlay_style":"gradient","gradient_direction":"to top","blurred_reflection":false,"reflection_opacity":75,"padding-block-start":0,"padding-block-end":0}},"marquee_PmbjAf":{"type":"marquee","blocks":{"text_YxeTtY":{"type":"text","name":"t:names.text","settings":{"text":"<h5>Entregas 24-72h<\/h5>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_JpMKPh":{"type":"text","settings":{"text":"<h6>Livros físicos disponíveis!<\/h6>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"custom","font":"var(--font-body--family)","font_size":"1rem","line_height":"tight","letter_spacing":"tight","case":"none","wrap":"nowrap","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_YxeTtY","text_JpMKPh"],"name":"t:names.marquee_section","settings":{"movement_direction":"normal","background_color":"{{ settings.color_palette.color12 }}","padding-block-start":24,"padding-block-end":24,"gap_between_elements":24}},"collection_links_Ut4aMz":{"type":"collection-links","blocks":{"link":{"type":"_collection-link","static":true,"settings":{"show_count":true},"blocks":{"title":{"type":"_inline-collection-title","static":true,"settings":{"font":"var(--font-heading--family)","weight":"","line_height":"normal","letter_spacing":"normal","case":"none"},"blocks":{}},"image":{"type":"_image","disabled":true,"static":true,"settings":{"height":"small","ratio":"portrait","border_radius":0},"blocks":{}}},"block_order":[]}},"name":"Collection links","settings":{"collection_list":["resumos-bg","resumos-mat","resumos-pt","resumos-fq","resumos-exame-de-conducao","explicacoes"],"layout":"spotlight","section_width":"page-width","alignment":"left","image_position":"right","background_color":"{{ settings.color_palette.background }}","padding-block-start":82,"padding-block-end":82}},"section_iXjipR":{"type":"section","blocks":{"text_xd7bEc":{"type":"text","name":"t:names.heading","settings":{"text":"<h2>A nossa missão<\/h2>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_HMA7p7":{"type":"text","name":"t:names.text","settings":{"text":"<p>A Resume foi desenvolvida a pensar nos estudantes, com a missão de transformar a forma como estudam e se organizam!<\/p><p>O nosso objetivo é oferecer <strong>materiais de estudo claros, completos e eficientes<\/strong>, que ajudam a compreender a matéria mais rapidamente, reduzir o <em>stress<\/em> e poupar tempo. Cada resumo é cuidadosamente elaborado por quem entende os desafios do dia a dia académico.<\/p><p>Mais do que conteúdos, queremos criar <strong>uma comunidade de estudantes que partilham conhecimento e alcançam melhores resultados<\/strong>, com recursos de qualidade e confiança.<\/p><p>Se precisares de orientação ou tiveres alguma dúvida, estamos sempre disponíveis para apoiar 💬<\/p>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_xd7bEc","text_HMA7p7"],"name":"t:names.rich_text_section","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"center","vertical_alignment_flex_direction_column":"center","gap":25,"section_width":"page-width","section_height":"small","section_height_custom":50,"background_media":"none","background_color":"{{ settings.color_palette.color10 }}","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"solid","border_width":3,"border_opacity":100,"border_radius":25,"padding-block-start":48,"padding-block-end":48}},"collection_list_eUhGwD":{"type":"collection-list","blocks":{"group_9zbUpz":{"type":"group","name":"t:names.header","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"placeholder":"","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"text_pitMwC":{"type":"text","name":"t:names.text","settings":{"text":"","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":16,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_pitMwC"]},"static-collection-card":{"type":"_collection-card","name":"t:names.collection_card","static":true,"settings":{"placement":"below_image","horizontal_alignment":"flex-start","vertical_alignment":"center","collection_card_gap":8,"border":"none","border_width":1,"border_opacity":100,"border_radius":0},"blocks":{"collection_title_V8paGa":{"type":"collection-title","name":"t:names.collection_title","settings":{"width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"collection-card-image":{"type":"_collection-card-image","name":"t:names.collection_card_image","static":true,"settings":{"image_ratio":"adapt","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0},"blocks":{}}},"block_order":["collection_title_V8paGa"]}},"block_order":["group_9zbUpz"],"name":"t:names.collections_carousel","settings":{"collection_list":["resumos-bg","resumos-pt","resumos-mat","resumos-fq","explicacoes","resumos-exame-de-conducao"],"layout_type":"carousel","carousel_on_mobile":false,"columns":3,"mobile_columns":"2","mobile_card_size":"60cqw","columns_gap":8,"bento_gap":8,"rows_gap":8,"max_collections":4,"icons_style":"arrow","icons_shape":"circle","section_width":"page-width","gap":12,"background_color":"{{ settings.color_palette.background }}","padding-block-start":48,"padding-block-end":48}},"media_with_content_Wfzcnr":{"type":"media-with-content","blocks":{"media":{"type":"_media-without-appearance","static":true,"settings":{"media_type":"image","image":"shopify:\/\/shop_images\/Beige_Minimalist_Planner_Page_and_Download_Mockup_Instagram_Post_Portrait_-_4.jpg","link":"","video_loop":true,"video_autoplay":false,"image_position":"cover","video_position":"cover"},"blocks":{}},"content":{"type":"_content-without-appearance","static":true,"settings":{"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"flex-end","gap":24},"blocks":{"jumbo_text_AykeQU":{"type":"jumbo-text","name":"t:names.jumbo_text","settings":{"text":"Os \nteus \nBesties!","font":"heading","alignment":"right","line_height":"0.8","letter_spacing":"-0.03em","case":"uppercase","text_effect":"reveal","animation_repeat":true},"blocks":{}}},"block_order":["jumbo_text_AykeQU"]}},"name":"t:names.editorial_jumbo_text","settings":{"media_position":"right","media_width":"medium","media_height":"60svh","section_width":"full-width","extend_media":true,"background_color":"{{ settings.color_palette.color9 }}","padding-block-start":0,"padding-block-end":0}},"product_list_UwRqN4":{"type":"product-list","blocks":{"static-header":{"type":"_product-list-content","static":true,"settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_list_text_zR8Cq9":{"type":"_product-list-text","name":"t:names.collection_title","settings":{"text":"<h3>Para os teus exames<\/h3>","width":"100%","max_width":"normal","alignment":"center","type_preset":"h4","font":"var(--font-primary--family)","font_size":"","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["product_list_text_zR8Cq9"]},"static-product-card":{"type":"_product-card","name":"t:names.product_card","static":true,"settings":{"product_card_gap":8,"border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_card_gallery_4y78ah":{"type":"_product-card-gallery","name":"t:names.product_card_media","settings":{"image_ratio":"portrait","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"group_JHtHYm":{"type":"_product-card-group","settings":{"content_direction":"row","vertical_on_mobile":true,"horizontal_alignment":"space-between","vertical_alignment":"flex-start","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"padding-block-start":2,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"group_KJDaTQ":{"type":"_product-card-group","name":"t:names.group","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"flex-start","gap":0,"width":"fill","custom_width":70,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_title_iRxawi":{"type":"product-title","name":"t:names.product_title","settings":{"width":"fit-content","max_width":"normal","alignment":"left","type_preset":"h5","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"price_4XkbjB":{"type":"price","settings":{"show_sale_price_first":true,"show_installments":false,"show_tax_info":false,"type_preset":"h5","width":"100%","alignment":"left","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["product_title_iRxawi","price_4XkbjB"]},"group_cPyTRf":{"type":"_product-card-group","name":"t:names.group","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"flex-start","gap":0,"width":"fill","custom_width":40,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"swatches_tGqDq9":{"type":"swatches","settings":{"product_swatches_alignment":"flex-end","product_swatches_alignment_mobile":"flex-start","hide_padding":false,"product_swatches_padding_top":0,"product_swatches_padding_bottom":0,"product_swatches_padding_left":0,"product_swatches_padding_right":0},"blocks":{}}},"block_order":["swatches_tGqDq9"]}},"block_order":["group_KJDaTQ","group_cPyTRf"]}},"block_order":["product_card_gallery_4y78ah","group_JHtHYm"]}},"name":"Featured collection","settings":{"collection":"resumos-bg","layout_type":"grid","carousel_on_mobile":false,"max_products":4,"columns":4,"mobile_columns":"2","mobile_card_size":"60cqw","columns_gap":26,"rows_gap":36,"icons_style":"arrow","icons_shape":"none","section_width":"page-width","horizontal_alignment":"flex-start","gap":28,"background_color":"{{ settings.color_palette.background }}","padding-block-start":84,"padding-block-end":100}},"177413636945f202de":{"type":"_blocks","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"section_width":"page-width","section_height":"","section_height_custom":50,"background_media":"none","background_color":"{{ settings.color_palette.background }}","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0}},"section_tzG4pH":{"type":"section","blocks":{"text_pyGLT7":{"type":"text","name":"t:names.heading","settings":{"text":"<h2>Calculadora de média<\/h2>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_nX6bf9":{"type":"text","name":"t:names.text","settings":{"text":"<p>Já podes calcular a tua média no nosso site , e ver os cursos que tens probabilidade de entrar<\/p>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"button_XChxtm":{"type":"button","name":"t:names.button","settings":{"label":"Ver média","link":"shopify:\/\/pages\/calculadora-2026","open_in_new_tab":false,"style_class":"button-custom","custom_button_background":"{{ settings.color_palette.background }}","custom_button_text":"{{ settings.color_palette.foreground }}","custom_button_border":"{{ settings.color_palette.color2 }}","width":"fit-content","custom_width":100,"width_mobile":"fit-content","custom_width_mobile":100},"blocks":{}}},"block_order":["text_pyGLT7","text_nX6bf9","button_XChxtm"],"name":"t:names.rich_text_section","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"center","vertical_alignment_flex_direction_column":"center","gap":25,"section_width":"page-width","section_height":"small","section_height_custom":50,"background_media":"none","background_color":"{{ settings.color_palette.color13 }}","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":48,"padding-block-end":48}},"section_jewPfV":{"type":"section","blocks":{"group_d3Mhme":{"type":"group","name":"t:names.content","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"center","vertical_alignment_flex_direction_column":"center","gap":30,"width":"fit-content","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"placeholder":"","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"group_CRxmwQ":{"type":"group","name":"t:names.text","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"center","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"placeholder":"","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"text_LUyaFq":{"type":"text","name":"t:names.heading","settings":{"text":"<h2>Encontra os teus <\/h2>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_e9LC67":{"type":"text","name":"t:names.subheading","settings":{"text":"<p>Vários resumos para te ajudar!<\/p>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_LUyaFq","text_e9LC67"]},"group_fRg9VX":{"type":"group","name":"t:names.buttons","settings":{"content_direction":"row","vertical_on_mobile":false,"horizontal_alignment":"center","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"placeholder":"","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"button_wmMCEA":{"type":"button","name":"t:names.button","settings":{"label":"ver todos","link":"shopify:\/\/collections","open_in_new_tab":false,"style_class":"button-secondary","width":"fit-content","custom_width":34,"width_mobile":"fit-content","custom_width_mobile":34},"blocks":{}}},"block_order":["button_wmMCEA"]}},"block_order":["group_CRxmwQ","group_fRg9VX"]},"comparison_slider_tfGGzk":{"type":"comparison-slider","name":"t:names.comparison_slider","settings":{"before_image":"shopify:\/\/shop_images\/ChatGPT_Image_12_12_2025_02_26_41.png","after_image":"shopify:\/\/shop_images\/ChatGPT_Image_12_12_2025_02_22_13.png","slider_style":"horizontal","show_text":false,"before_text":"","after_text":"","text_preset":"","text_position_horizontal":"start","text_position_vertical":"start","text_background":false,"text_background_color":"#ffffff","text_corner_radius":0,"image_ratio":"landscape","width":"custom","custom_width":65,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["group_d3Mhme","comparison_slider_tfGGzk"],"disabled":true,"name":"t:names.image_compare","settings":{"content_direction":"row","vertical_on_mobile":true,"horizontal_alignment":"space-between","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":46,"section_width":"page-width","section_height":"small","section_height_custom":50,"background_media":"none","background_color":"{{ settings.color_palette.background }}","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":40,"padding-block-end":40}},"section_tLhbHV":{"type":"section","blocks":{"video_dMjzAQ":{"type":"video","name":"t:names.video","settings":{"source":"uploaded","video":"shopify:\/\/files\/videos\/31c2361d66834a4999ddff4270ce3858 4.mov","video_url":"","video_autoplay":true,"video_loop":true,"alt":"","custom_width":100,"custom_width_mobile":100,"aspect_ratio":"16\/9","border":"solid","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"group_ECWABA":{"type":"group","name":"t:names.caption","settings":{"content_direction":"row","vertical_on_mobile":true,"horizontal_alignment":"space-between","vertical_alignment":"flex-end","align_baseline":true,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"placeholder":"","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"text_gK8DyR":{"type":"text","name":"t:names.text","settings":{"text":"<p>Um projeto de <strong>ALUNOS<\/strong> para <strong>alunos<\/strong>!<\/p><p>Descobre as nossas sebentas<\/p>","width":"100%","max_width":"normal","alignment":"center","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_gK8DyR"]}},"block_order":["video_dMjzAQ","group_ECWABA"],"name":"t:names.video_section","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":16,"section_width":"full-width","section_height":"","section_height_custom":50,"background_media":"none","background_color":"{{ settings.color_palette.background }}","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":32}},"slideshow_86mFhD":{"type":"slideshow","blocks":{"slide_FmxF93":{"type":"_slide","settings":{"media_type_1":"image","image_1":"shopify:\/\/shop_images\/Gemini_Generated_Image_upods6upods6upod.png","content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"center","vertical_alignment_flex_direction_column":"center","gap":12,"toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","padding-block-start":48,"padding-block-end":48,"padding-inline-start":48,"padding-inline-end":48},"blocks":{"text_nNxb8B":{"type":"text","name":"t:names.heading","settings":{"text":"<h2>Novidade<\/h2>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_WCDQzp":{"type":"text","settings":{"text":"<p>Chegaram as explicações resume!<\/p>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":20,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"button_EQEtTJ":{"type":"button","settings":{"label":"ver","link":"shopify:\/\/collections\/explicacoes","open_in_new_tab":false,"style_class":"button","width":"fit-content","custom_width":100,"width_mobile":"fit-content","custom_width_mobile":100},"blocks":{}}},"block_order":["text_nNxb8B","text_WCDQzp","button_EQEtTJ"]}},"block_order":["slide_FmxF93"],"name":"t:names.slideshow_inset","settings":{"display_mode":"with_hints","section_width":"full-width","full_frame_on_mobile":false,"slideshow_gap":18,"corner_radius":20,"slide_height":"medium","content_position":"below-media","icons_style":"arrows_large","icons_shape":"none","slideshow_controls_style":"none","autoplay":false,"autoplay_speed":4,"padding-block-start":0,"padding-block-end":0}},"product_list_pgW4F4":{"type":"product-list","blocks":{"static-header":{"type":"_product-list-content","name":"t:names.header","static":true,"settings":{"content_direction":"row","vertical_on_mobile":false,"horizontal_alignment":"space-between","vertical_alignment":"flex-end","align_baseline":true,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_list_text_ihjFVL":{"type":"_product-list-text","name":"t:names.collection_title","settings":{"text":"<h3>{{ closest.collection.title }}<\/h3>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"product_list_button_nHYX4Q":{"type":"_product-list-button","name":"t:names.product_list_button","settings":{"label":"View all","open_in_new_tab":false,"style_class":"button-unstyled","width":"fit-content","custom_width":100,"width_mobile":"fit-content","custom_width_mobile":100},"blocks":{}}},"block_order":["product_list_text_ihjFVL","product_list_button_nHYX4Q"]},"static-product-card":{"type":"_product-card","name":"t:names.product_card","static":true,"settings":{"product_card_gap":4,"border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_card_gallery_qrcRNP":{"type":"_product-card-gallery","name":"t:names.product_card_media","settings":{"image_ratio":"adapt","border":"none","border_width":1,"border_opacity":100,"border_radius":15,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"product_title_xppV3X":{"type":"product-title","name":"t:names.product_title","settings":{"width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":4,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"price_66ni4P":{"type":"price","name":"t:names.product_price","settings":{"show_sale_price_first":true,"show_installments":false,"show_tax_info":false,"type_preset":"h6","width":"100%","alignment":"left","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["product_card_gallery_qrcRNP","product_title_xppV3X","price_66ni4P"]}},"name":"t:names.products_carousel","settings":{"collection":"sebentas-para-exame","layout_type":"carousel","carousel_on_mobile":false,"max_products":6,"columns":4,"mobile_columns":"2","mobile_card_size":"60cqw","columns_gap":8,"rows_gap":24,"icons_style":"arrow","icons_shape":"circle","section_width":"page-width","horizontal_alignment":"flex-start","gap":28,"background_color":"{{ settings.color_palette.background }}","padding-block-start":48,"padding-block-end":48}},"media_with_content_dxW8RB":{"type":"media-with-content","blocks":{"media":{"type":"_media-without-appearance","static":true,"settings":{"media_type":"image","image":"shopify:\/\/shop_images\/g-form-0-appearance.imageUrl-mj25nrjc-impressao-encadernacao-2-min_1.jpg","link":"","video_loop":true,"video_autoplay":false,"image_position":"cover","video_position":"cover"},"blocks":{}},"content":{"type":"_content-without-appearance","static":true,"settings":{"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"space-between","gap":24},"blocks":{"text_eVkWji":{"type":"text","name":"t:names.caption","settings":{"text":"<p>NOVIDADE<\/p>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"h6","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"group_84HQXW":{"type":"group","settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"link":"","open_in_new_tab":false,"placeholder":"","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"text_nbFcyJ":{"type":"text","name":"t:names.heading","settings":{"text":"<p>Impressão & Encadernação<\/p>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"h3","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_fHLTNz":{"type":"text","settings":{"text":"<p>A nossa loja ficou ainda melhor: impressão, encadernação e personalização .<\/p><p>Rápido, prático e com qualidade!<\/p>","width":"fit-content","max_width":"narrow","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_nbFcyJ","text_fHLTNz"]},"button_ppLAKy":{"type":"button","settings":{"label":"Ver","link":"shopify:\/\/pages\/papelaria","open_in_new_tab":false,"style_class":"button-unstyled","width":"fit-content","custom_width":100,"width_mobile":"fit-content","custom_width_mobile":100},"blocks":{}}},"block_order":["text_eVkWji","group_84HQXW","button_ppLAKy"]}},"disabled":true,"name":"t:names.editorial","settings":{"media_position":"left","media_width":"medium","media_height":"60svh","section_width":"full-width","extend_media":true,"background_color":"{{ settings.color_palette.color4 }}","padding-block-start":0,"padding-block-end":0}},"product_list_xrRreR":{"type":"product-list","blocks":{"static-header":{"type":"_product-list-content","name":"t:names.header","static":true,"settings":{"content_direction":"row","vertical_on_mobile":false,"horizontal_alignment":"space-between","vertical_alignment":"flex-end","align_baseline":true,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"width":"fill","custom_width":100,"width_mobile":"fill","custom_width_mobile":100,"height":"fit","custom_height":100,"background_media":"none","video_position":"cover","background_image_position":"cover","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_list_text_zThVEe":{"type":"_product-list-text","name":"t:names.collection_title","settings":{"text":"<h4> Resumos Português<\/h4>","width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"product_list_button_gGNJJW":{"type":"_product-list-button","name":"t:names.product_list_button","settings":{"label":"View all","open_in_new_tab":false,"style_class":"button-unstyled","width":"fit-content","custom_width":100,"width_mobile":"fit-content","custom_width_mobile":100},"blocks":{}}},"block_order":["product_list_text_zThVEe","product_list_button_gGNJJW"]},"static-product-card":{"type":"_product-card","name":"t:names.product_card","static":true,"settings":{"product_card_gap":4,"border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{"product_card_gallery_w34DWJ":{"type":"_product-card-gallery","name":"t:names.product_card_media","settings":{"image_ratio":"adapt","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"product_title_BU78w7":{"type":"product-title","name":"t:names.product_title","settings":{"width":"fit-content","max_width":"normal","alignment":"left","type_preset":"rte","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":4,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"price_Bewb3E":{"type":"price","name":"t:names.product_price","settings":{"show_sale_price_first":true,"show_installments":false,"show_tax_info":false,"type_preset":"h6","width":"100%","alignment":"left","font":"var(--font-body--family)","font_size":"1rem","line_height":"normal","letter_spacing":"normal","case":"none","padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["product_card_gallery_w34DWJ","product_title_BU78w7","price_Bewb3E"]}},"name":"t:names.products_carousel","settings":{"collection":"resumos-pt","layout_type":"carousel","carousel_on_mobile":false,"max_products":6,"columns":4,"mobile_columns":"2","mobile_card_size":"60cqw","columns_gap":8,"rows_gap":24,"icons_style":"arrow","icons_shape":"circle","section_width":"page-width","horizontal_alignment":"flex-start","gap":28,"background_color":"{{ settings.color_palette.background }}","padding-block-start":48,"padding-block-end":48}},"hero_MVUtj6":{"type":"hero","blocks":{"text_69C6UJ":{"type":"text","settings":{"text":"<h2>Agora em Papel!<\/h2>","width":"100%","max_width":"normal","alignment":"left","type_preset":"h3","font":"var(--font-primary--family)","font_size":"","line_height":"normal","letter_spacing":"normal","case":"none","wrap":"pretty","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}},"text_hzq6cM":{"type":"text","settings":{"text":"<p><a href=\"\/pages\/papelaria\" title=\"Papelaria\">Shop now<\/a><\/p>","width":"fit-content","max_width":"normal","alignment":"right","type_preset":"h6","font":"var(--font-secondary--family)","font_size":"","line_height":"normal","letter_spacing":"normal","case":"uppercase","wrap":"nowrap","background":false,"background_color":"#00000026","corner_radius":0,"padding-block-start":0,"padding-block-end":0,"padding-inline-start":0,"padding-inline-end":0},"blocks":{}}},"block_order":["text_69C6UJ","text_hzq6cM"],"disabled":true,"name":"t:names.hero","settings":{"media_type_1":"image","image_1":"shopify:\/\/shop_images\/IMG_6745.heic","media_type_2":"image","stack_media_on_mobile":false,"custom_mobile_media":false,"media_type_1_mobile":"image","media_type_2_mobile":"image","link":"","open_in_new_tab":false,"content_direction":"row","vertical_on_mobile":true,"horizontal_alignment":"space-between","vertical_alignment":"flex-end","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"flex-end","gap":16,"section_width":"page-width","section_height":"large","section_height_custom":60,"background_color":"{{ settings.color_palette.background }}","toggle_overlay":true,"overlay_color":"#00000075","overlay_style":"gradient","gradient_direction":"to top","blurred_reflection":false,"reflection_opacity":75,"padding-block-start":0,"padding-block-end":40}},"17674654561c4f9d0d":{"type":"_blocks","blocks":{"judge_me_reviews_featured_carousel_AJhiPr":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{"maxwidth":1080}}},"block_order":["judge_me_reviews_featured_carousel_AJhiPr"],"settings":{"content_direction":"column","vertical_on_mobile":true,"horizontal_alignment":"flex-start","vertical_alignment":"center","align_baseline":false,"horizontal_alignment_flex_direction_column":"flex-start","vertical_alignment_flex_direction_column":"center","gap":12,"section_width":"page-width","section_height":"","section_height_custom":50,"background_media":"none","background_color":"{{ settings.color_palette.background }}","video_position":"cover","background_image_position":"cover","toggle_overlay":false,"overlay_color":"#00000026","overlay_style":"solid","gradient_direction":"to top","border":"none","border_width":1,"border_opacity":100,"border_radius":0,"padding-block-start":0,"padding-block-end":0}}},"order":["hero_iyt6zg","marquee_PmbjAf","collection_links_Ut4aMz","section_iXjipR","collection_list_eUhGwD","media_with_content_Wfzcnr","product_list_UwRqN4","177413636945f202de","section_tzG4pH","section_jewPfV","section_tLhbHV","slideshow_86mFhD","product_list_pgW4F4","media_with_content_dxW8RB","product_list_xrRreR","hero_MVUtj6","17674654561c4f9d0d"]}
+{
+    "sections": {
+        "hero_iyt6zg": {
+            "type": "hero",
+            "settings": {
+                "media_type_1": "image",
+                "image_1": "shopify:\/\/shop_images\/Beige_Minimalist_Planner_Page_and_Download_Mockup_Instagram_Post_Portrait_1.png",
+                "media_type_2": "image",
+                "stack_media_on_mobile": false,
+                "custom_mobile_media": false,
+                "media_type_1_mobile": "image",
+                "media_type_2_mobile": "image",
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 16,
+                "section_width": "page-width",
+                "section_height": "full-screen",
+                "section_height_custom": 74,
+                "background_color": "rgba(0,0,0,0)",
+                "toggle_overlay": false,
+                "overlay_color": "#ffffff",
+                "overlay_style": "gradient",
+                "gradient_direction": "to top",
+                "blurred_reflection": false,
+                "reflection_opacity": 75,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+            }
+        },
+        "marquee_PmbjAf": {
+            "type": "marquee",
+            "blocks": {
+                "text_YxeTtY": {
+                    "type": "text",
+                    "name": "t:names.text",
+                    "settings": {
+                        "text": "<h5>Entregas 24-72h<\/h5>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                },
+                "text_JpMKPh": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h6>Livros físicos disponíveis!<\/h6>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "custom",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "tight",
+                        "letter_spacing": "tight",
+                        "case": "none",
+                        "wrap": "nowrap",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                }
+            },
+            "block_order": [
+                "text_YxeTtY",
+                "text_JpMKPh"
+            ],
+            "name": "t:names.marquee_section",
+            "settings": {
+                "movement_direction": "normal",
+                "background_color": "{{ settings.color_palette.color12 }}",
+                "padding-block-start": 24,
+                "padding-block-end": 24,
+                "gap_between_elements": 24
+            }
+        },
+        "collection_links_Ut4aMz": {
+            "type": "collection-links",
+            "blocks": {
+                "link": {
+                    "type": "_collection-link",
+                    "static": true,
+                    "settings": {
+                        "show_count": true
+                    },
+                    "blocks": {
+                        "title": {
+                            "type": "_inline-collection-title",
+                            "static": true,
+                            "settings": {
+                                "font": "var(--font-heading--family)",
+                                "weight": "",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none"
+                            },
+                            "blocks": {}
+                        },
+                        "image": {
+                            "type": "_image",
+                            "disabled": true,
+                            "static": true,
+                            "settings": {
+                                "height": "small",
+                                "ratio": "portrait",
+                                "border_radius": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": []
+                }
+            },
+            "name": "Collection links",
+            "settings": {
+                "collection_list": [
+                    "resumos-bg",
+                    "resumos-mat",
+                    "resumos-pt",
+                    "resumos-fq",
+                    "resumos-exame-de-conducao",
+                    "explicacoes"
+                ],
+                "layout": "spotlight",
+                "section_width": "page-width",
+                "alignment": "left",
+                "image_position": "right",
+                "background_color": "{{ settings.color_palette.background }}",
+                "padding-block-start": 82,
+                "padding-block-end": 82
+            }
+        },
+        "section_iXjipR": {
+            "type": "section",
+            "blocks": {
+                "text_xd7bEc": {
+                    "type": "text",
+                    "name": "t:names.heading",
+                    "settings": {
+                        "text": "<h2>A nossa missão<\/h2>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                },
+                "text_HMA7p7": {
+                    "type": "text",
+                    "name": "t:names.text",
+                    "settings": {
+                        "text": "<p>A Resume foi desenvolvida a pensar nos estudantes, com a missão de transformar a forma como estudam e se organizam!<\/p><p>O nosso objetivo é oferecer <strong>materiais de estudo claros, completos e eficientes<\/strong>, que ajudam a compreender a matéria mais rapidamente, reduzir o <em>stress<\/em> e poupar tempo. Cada resumo é cuidadosamente elaborado por quem entende os desafios do dia a dia académico.<\/p><p>Mais do que conteúdos, queremos criar <strong>uma comunidade de estudantes que partilham conhecimento e alcançam melhores resultados<\/strong>, com recursos de qualidade e confiança.<\/p><p>Se precisares de orientação ou tiveres alguma dúvida, estamos sempre disponíveis para apoiar 💬<\/p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                }
+            },
+            "block_order": [
+                "text_xd7bEc",
+                "text_HMA7p7"
+            ],
+            "name": "t:names.rich_text_section",
+            "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 25,
+                "section_width": "page-width",
+                "section_height": "small",
+                "section_height_custom": 50,
+                "background_media": "none",
+                "background_color": "{{ settings.color_palette.color10 }}",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "solid",
+                "border_width": 3,
+                "border_opacity": 100,
+                "border_radius": 25,
+                "padding-block-start": 48,
+                "padding-block-end": 48
+            }
+        },
+        "collection_list_eUhGwD": {
+            "type": "collection-list",
+            "blocks": {
+                "group_9zbUpz": {
+                    "type": "group",
+                    "name": "t:names.header",
+                    "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "text_pitMwC": {
+                            "type": "text",
+                            "name": "t:names.text",
+                            "settings": {
+                                "text": "",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 16,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "text_pitMwC"
+                    ]
+                },
+                "static-collection-card": {
+                    "type": "_collection-card",
+                    "name": "t:names.collection_card",
+                    "static": true,
+                    "settings": {
+                        "placement": "below_image",
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "collection_card_gap": 8,
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0
+                    },
+                    "blocks": {
+                        "collection_title_V8paGa": {
+                            "type": "collection-title",
+                            "name": "t:names.collection_title",
+                            "settings": {
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "collection-card-image": {
+                            "type": "_collection-card-image",
+                            "name": "t:names.collection_card_image",
+                            "static": true,
+                            "settings": {
+                                "image_ratio": "adapt",
+                                "toggle_overlay": false,
+                                "overlay_color": "#00000026",
+                                "overlay_style": "solid",
+                                "gradient_direction": "to top",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "collection_title_V8paGa"
+                    ]
+                }
+            },
+            "block_order": [
+                "group_9zbUpz"
+            ],
+            "name": "t:names.collections_carousel",
+            "settings": {
+                "collection_list": [
+                    "resumos-bg",
+                    "resumos-pt",
+                    "resumos-mat",
+                    "resumos-fq",
+                    "explicacoes",
+                    "resumos-exame-de-conducao"
+                ],
+                "layout_type": "carousel",
+                "carousel_on_mobile": false,
+                "columns": 3,
+                "mobile_columns": "2",
+                "mobile_card_size": "60cqw",
+                "columns_gap": 8,
+                "bento_gap": 8,
+                "rows_gap": 8,
+                "max_collections": 4,
+                "icons_style": "arrow",
+                "icons_shape": "circle",
+                "section_width": "page-width",
+                "gap": 12,
+                "background_color": "{{ settings.color_palette.background }}",
+                "padding-block-start": 48,
+                "padding-block-end": 48
+            }
+        },
+        "media_with_content_Wfzcnr": {
+            "type": "media-with-content",
+            "blocks": {
+                "media": {
+                    "type": "_media-without-appearance",
+                    "static": true,
+                    "settings": {
+                        "media_type": "image",
+                        "image": "shopify:\/\/shop_images\/Beige_Minimalist_Planner_Page_and_Download_Mockup_Instagram_Post_Portrait_-_4.jpg",
+                        "link": "",
+                        "video_loop": true,
+                        "video_autoplay": false,
+                        "image_position": "cover",
+                        "video_position": "cover"
+                    },
+                    "blocks": {}
+                },
+                "content": {
+                    "type": "_content-without-appearance",
+                    "static": true,
+                    "settings": {
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "flex-end",
+                        "gap": 24
+                    },
+                    "blocks": {
+                        "jumbo_text_AykeQU": {
+                            "type": "jumbo-text",
+                            "name": "t:names.jumbo_text",
+                            "settings": {
+                                "text": "Os \nteus \nBesties!",
+                                "font": "heading",
+                                "alignment": "right",
+                                "line_height": "0.8",
+                                "letter_spacing": "-0.03em",
+                                "case": "uppercase",
+                                "text_effect": "reveal",
+                                "animation_repeat": true
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "jumbo_text_AykeQU"
+                    ]
+                }
+            },
+            "name": "t:names.editorial_jumbo_text",
+            "settings": {
+                "media_position": "right",
+                "media_width": "medium",
+                "media_height": "60svh",
+                "section_width": "full-width",
+                "extend_media": true,
+                "background_color": "{{ settings.color_palette.color9 }}",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+            }
+        },
+        "product_list_UwRqN4": {
+            "type": "product-list",
+            "blocks": {
+                "static-header": {
+                    "type": "_product-list-content",
+                    "static": true,
+                    "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "product_list_text_zR8Cq9": {
+                            "type": "_product-list-text",
+                            "name": "t:names.collection_title",
+                            "settings": {
+                                "text": "<h3>Para os teus exames<\/h3>",
+                                "width": "100%",
+                                "max_width": "normal",
+                                "alignment": "center",
+                                "type_preset": "h4",
+                                "font": "var(--font-primary--family)",
+                                "font_size": "",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "product_list_text_zR8Cq9"
+                    ]
+                },
+                "static-product-card": {
+                    "type": "_product-card",
+                    "name": "t:names.product_card",
+                    "static": true,
+                    "settings": {
+                        "product_card_gap": 8,
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "product_card_gallery_4y78ah": {
+                            "type": "_product-card-gallery",
+                            "name": "t:names.product_card_media",
+                            "settings": {
+                                "image_ratio": "portrait",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "group_JHtHYm": {
+                            "type": "_product-card-group",
+                            "settings": {
+                                "content_direction": "row",
+                                "vertical_on_mobile": true,
+                                "horizontal_alignment": "space-between",
+                                "vertical_alignment": "flex-start",
+                                "align_baseline": false,
+                                "horizontal_alignment_flex_direction_column": "flex-start",
+                                "vertical_alignment_flex_direction_column": "center",
+                                "gap": 12,
+                                "width": "fill",
+                                "custom_width": 100,
+                                "width_mobile": "fill",
+                                "custom_width_mobile": 100,
+                                "height": "fit",
+                                "custom_height": 100,
+                                "background_media": "none",
+                                "video_position": "cover",
+                                "background_image_position": "cover",
+                                "toggle_overlay": false,
+                                "overlay_color": "#00000026",
+                                "overlay_style": "solid",
+                                "gradient_direction": "to top",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0,
+                                "link": "",
+                                "open_in_new_tab": false,
+                                "padding-block-start": 2,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {
+                                "group_KJDaTQ": {
+                                    "type": "_product-card-group",
+                                    "name": "t:names.group",
+                                    "settings": {
+                                        "content_direction": "column",
+                                        "vertical_on_mobile": true,
+                                        "horizontal_alignment": "flex-start",
+                                        "vertical_alignment": "center",
+                                        "align_baseline": false,
+                                        "horizontal_alignment_flex_direction_column": "flex-start",
+                                        "vertical_alignment_flex_direction_column": "flex-start",
+                                        "gap": 0,
+                                        "width": "fill",
+                                        "custom_width": 70,
+                                        "width_mobile": "fill",
+                                        "custom_width_mobile": 100,
+                                        "height": "fit",
+                                        "custom_height": 100,
+                                        "background_media": "none",
+                                        "video_position": "cover",
+                                        "background_image_position": "cover",
+                                        "toggle_overlay": false,
+                                        "overlay_color": "#00000026",
+                                        "overlay_style": "solid",
+                                        "gradient_direction": "to top",
+                                        "border": "none",
+                                        "border_width": 1,
+                                        "border_opacity": 100,
+                                        "border_radius": 0,
+                                        "link": "",
+                                        "open_in_new_tab": false,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {
+                                        "product_title_iRxawi": {
+                                            "type": "product-title",
+                                            "name": "t:names.product_title",
+                                            "settings": {
+                                                "width": "fit-content",
+                                                "max_width": "normal",
+                                                "alignment": "left",
+                                                "type_preset": "h5",
+                                                "font": "var(--font-body--family)",
+                                                "font_size": "1rem",
+                                                "line_height": "normal",
+                                                "letter_spacing": "normal",
+                                                "case": "none",
+                                                "wrap": "pretty",
+                                                "background": false,
+                                                "background_color": "#00000026",
+                                                "corner_radius": 0,
+                                                "padding-block-start": 0,
+                                                "padding-block-end": 0,
+                                                "padding-inline-start": 0,
+                                                "padding-inline-end": 0
+                                            },
+                                            "blocks": {}
+                                        },
+                                        "price_4XkbjB": {
+                                            "type": "price",
+                                            "settings": {
+                                                "show_sale_price_first": true,
+                                                "show_installments": false,
+                                                "show_tax_info": false,
+                                                "type_preset": "h5",
+                                                "width": "100%",
+                                                "alignment": "left",
+                                                "font": "var(--font-body--family)",
+                                                "font_size": "1rem",
+                                                "line_height": "normal",
+                                                "letter_spacing": "normal",
+                                                "case": "none",
+                                                "padding-block-start": 0,
+                                                "padding-block-end": 0,
+                                                "padding-inline-start": 0,
+                                                "padding-inline-end": 0
+                                            },
+                                            "blocks": {}
+                                        }
+                                    },
+                                    "block_order": [
+                                        "product_title_iRxawi",
+                                        "price_4XkbjB"
+                                    ]
+                                },
+                                "group_cPyTRf": {
+                                    "type": "_product-card-group",
+                                    "name": "t:names.group",
+                                    "settings": {
+                                        "content_direction": "column",
+                                        "vertical_on_mobile": true,
+                                        "horizontal_alignment": "flex-start",
+                                        "vertical_alignment": "center",
+                                        "align_baseline": false,
+                                        "horizontal_alignment_flex_direction_column": "flex-start",
+                                        "vertical_alignment_flex_direction_column": "flex-start",
+                                        "gap": 0,
+                                        "width": "fill",
+                                        "custom_width": 40,
+                                        "width_mobile": "fill",
+                                        "custom_width_mobile": 100,
+                                        "height": "fit",
+                                        "custom_height": 100,
+                                        "background_media": "none",
+                                        "video_position": "cover",
+                                        "background_image_position": "cover",
+                                        "toggle_overlay": false,
+                                        "overlay_color": "#00000026",
+                                        "overlay_style": "solid",
+                                        "gradient_direction": "to top",
+                                        "border": "none",
+                                        "border_width": 1,
+                                        "border_opacity": 100,
+                                        "border_radius": 0,
+                                        "link": "",
+                                        "open_in_new_tab": false,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {
+                                        "swatches_tGqDq9": {
+                                            "type": "swatches",
+                                            "settings": {
+                                                "product_swatches_alignment": "flex-end",
+                                                "product_swatches_alignment_mobile": "flex-start",
+                                                "hide_padding": false,
+                                                "product_swatches_padding_top": 0,
+                                                "product_swatches_padding_bottom": 0,
+                                                "product_swatches_padding_left": 0,
+                                                "product_swatches_padding_right": 0
+                                            },
+                                            "blocks": {}
+                                        }
+                                    },
+                                    "block_order": [
+                                        "swatches_tGqDq9"
+                                    ]
+                                }
+                            },
+                            "block_order": [
+                                "group_KJDaTQ",
+                                "group_cPyTRf"
+                            ]
+                        }
+                    },
+                    "block_order": [
+                        "product_card_gallery_4y78ah",
+                        "group_JHtHYm"
+                    ]
+                }
+            },
+            "name": "Featured collection",
+            "settings": {
+                "collection": "resumos-bg",
+                "layout_type": "grid",
+                "carousel_on_mobile": false,
+                "max_products": 4,
+                "columns": 4,
+                "mobile_columns": "2",
+                "mobile_card_size": "60cqw",
+                "columns_gap": 26,
+                "rows_gap": 36,
+                "icons_style": "arrow",
+                "icons_shape": "none",
+                "section_width": "page-width",
+                "horizontal_alignment": "flex-start",
+                "gap": 28,
+                "background_color": "{{ settings.color_palette.background }}",
+                "padding-block-start": 84,
+                "padding-block-end": 100
+            }
+        },
+        "177413636945f202de": {
+            "type": "_blocks",
+            "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "section_width": "page-width",
+                "section_height": "",
+                "section_height_custom": 50,
+                "background_media": "none",
+                "background_color": "{{ settings.color_palette.background }}",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+            }
+        },
+        "section_tzG4pH": {
+            "type": "section",
+            "blocks": {
+                "text_pyGLT7": {
+                    "type": "text",
+                    "name": "t:names.heading",
+                    "settings": {
+                        "text": "<h2>Calculadora de média<\/h2>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                },
+                "text_nX6bf9": {
+                    "type": "text",
+                    "name": "t:names.text",
+                    "settings": {
+                        "text": "<p>Já podes calcular a tua média no nosso site , e ver os cursos que tens probabilidade de entrar<\/p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "rte",
+                        "font": "var(--font-body--family)",
+                        "font_size": "1rem",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                },
+                "button_XChxtm": {
+                    "type": "button",
+                    "name": "t:names.button",
+                    "settings": {
+                        "label": "Ver média",
+                        "link": "shopify:\/\/pages\/calculadora-2026",
+                        "open_in_new_tab": false,
+                        "style_class": "button-custom",
+                        "custom_button_background": "{{ settings.color_palette.background }}",
+                        "custom_button_text": "{{ settings.color_palette.foreground }}",
+                        "custom_button_border": "{{ settings.color_palette.color2 }}",
+                        "width": "fit-content",
+                        "custom_width": 100,
+                        "width_mobile": "fit-content",
+                        "custom_width_mobile": 100
+                    },
+                    "blocks": {}
+                }
+            },
+            "block_order": [
+                "text_pyGLT7",
+                "text_nX6bf9",
+                "button_XChxtm"
+            ],
+            "name": "t:names.rich_text_section",
+            "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 25,
+                "section_width": "page-width",
+                "section_height": "small",
+                "section_height_custom": 50,
+                "background_media": "none",
+                "background_color": "{{ settings.color_palette.color13 }}",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 48,
+                "padding-block-end": 48
+            }
+        },
+        "section_jewPfV": {
+            "type": "section",
+            "blocks": {
+                "group_d3Mhme": {
+                    "type": "group",
+                    "name": "t:names.content",
+                    "settings": {
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 30,
+                        "width": "fit-content",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "group_CRxmwQ": {
+                            "type": "group",
+                            "name": "t:names.text",
+                            "settings": {
+                                "content_direction": "column",
+                                "vertical_on_mobile": true,
+                                "horizontal_alignment": "flex-start",
+                                "vertical_alignment": "center",
+                                "align_baseline": false,
+                                "horizontal_alignment_flex_direction_column": "center",
+                                "vertical_alignment_flex_direction_column": "center",
+                                "gap": 12,
+                                "width": "fill",
+                                "custom_width": 100,
+                                "width_mobile": "fill",
+                                "custom_width_mobile": 100,
+                                "height": "fit",
+                                "custom_height": 100,
+                                "background_media": "none",
+                                "video_position": "cover",
+                                "background_image_position": "cover",
+                                "toggle_overlay": false,
+                                "overlay_color": "#00000026",
+                                "overlay_style": "solid",
+                                "gradient_direction": "to top",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0,
+                                "link": "",
+                                "open_in_new_tab": false,
+                                "placeholder": "",
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {
+                                "text_LUyaFq": {
+                                    "type": "text",
+                                    "name": "t:names.heading",
+                                    "settings": {
+                                        "text": "<h2>Encontra os teus <\/h2>",
+                                        "width": "fit-content",
+                                        "max_width": "normal",
+                                        "alignment": "left",
+                                        "type_preset": "rte",
+                                        "font": "var(--font-body--family)",
+                                        "font_size": "1rem",
+                                        "line_height": "normal",
+                                        "letter_spacing": "normal",
+                                        "case": "none",
+                                        "wrap": "pretty",
+                                        "background": false,
+                                        "background_color": "#00000026",
+                                        "corner_radius": 0,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {}
+                                },
+                                "text_e9LC67": {
+                                    "type": "text",
+                                    "name": "t:names.subheading",
+                                    "settings": {
+                                        "text": "<p>Vários resumos para te ajudar!<\/p>",
+                                        "width": "fit-content",
+                                        "max_width": "normal",
+                                        "alignment": "left",
+                                        "type_preset": "rte",
+                                        "font": "var(--font-body--family)",
+                                        "font_size": "1rem",
+                                        "line_height": "normal",
+                                        "letter_spacing": "normal",
+                                        "case": "none",
+                                        "wrap": "pretty",
+                                        "background": false,
+                                        "background_color": "#00000026",
+                                        "corner_radius": 0,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {}
+                                }
+                            },
+                            "block_order": [
+                                "text_LUyaFq",
+                                "text_e9LC67"
+                            ]
+                        },
+                        "group_fRg9VX": {
+                            "type": "group",
+                            "name": "t:names.buttons",
+                            "settings": {
+                                "content_direction": "row",
+                                "vertical_on_mobile": false,
+                                "horizontal_alignment": "center",
+                                "vertical_alignment": "center",
+                                "align_baseline": false,
+                                "horizontal_alignment_flex_direction_column": "flex-start",
+                                "vertical_alignment_flex_direction_column": "center",
+                                "gap": 12,
+                                "width": "fill",
+                                "custom_width": 100,
+                                "width_mobile": "fill",
+                                "custom_width_mobile": 100,
+                                "height": "fit",
+                                "custom_height": 100,
+                                "background_media": "none",
+                                "video_position": "cover",
+                                "background_image_position": "cover",
+                                "toggle_overlay": false,
+                                "overlay_color": "#00000026",
+                                "overlay_style": "solid",
+                                "gradient_direction": "to top",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0,
+                                "link": "",
+                                "open_in_new_tab": false,
+                                "placeholder": "",
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {
+                                "button_wmMCEA": {
+                                    "type": "button",
+                                    "name": "t:names.button",
+                                    "settings": {
+                                        "label": "ver todos",
+                                        "link": "shopify:\/\/collections",
+                                        "open_in_new_tab": false,
+                                        "style_class": "button-secondary",
+                                        "width": "fit-content",
+                                        "custom_width": 34,
+                                        "width_mobile": "fit-content",
+                                        "custom_width_mobile": 34
+                                    },
+                                    "blocks": {}
+                                }
+                            },
+                            "block_order": [
+                                "button_wmMCEA"
+                            ]
+                        }
+                    },
+                    "block_order": [
+                        "group_CRxmwQ",
+                        "group_fRg9VX"
+                    ]
+                },
+                "comparison_slider_tfGGzk": {
+                    "type": "comparison-slider",
+                    "name": "t:names.comparison_slider",
+                    "settings": {
+                        "before_image": "shopify:\/\/shop_images\/ChatGPT_Image_12_12_2025_02_26_41.png",
+                        "after_image": "shopify:\/\/shop_images\/ChatGPT_Image_12_12_2025_02_22_13.png",
+                        "slider_style": "horizontal",
+                        "show_text": false,
+                        "before_text": "",
+                        "after_text": "",
+                        "text_preset": "",
+                        "text_position_horizontal": "start",
+                        "text_position_vertical": "start",
+                        "text_background": false,
+                        "text_background_color": "#ffffff",
+                        "text_corner_radius": 0,
+                        "image_ratio": "landscape",
+                        "width": "custom",
+                        "custom_width": 65,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                }
+            },
+            "block_order": [
+                "group_d3Mhme",
+                "comparison_slider_tfGGzk"
+            ],
+            "disabled": true,
+            "name": "t:names.image_compare",
+            "settings": {
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "space-between",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 46,
+                "section_width": "page-width",
+                "section_height": "small",
+                "section_height_custom": 50,
+                "background_media": "none",
+                "background_color": "{{ settings.color_palette.background }}",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 40,
+                "padding-block-end": 40
+            }
+        },
+        "section_tLhbHV": {
+            "type": "section",
+            "blocks": {
+                "video_dMjzAQ": {
+                    "type": "video",
+                    "name": "t:names.video",
+                    "settings": {
+                        "source": "uploaded",
+                        "video": "shopify:\/\/files\/videos\/31c2361d66834a4999ddff4270ce3858 4.mov",
+                        "video_url": "",
+                        "video_autoplay": true,
+                        "video_loop": true,
+                        "alt": "",
+                        "custom_width": 100,
+                        "custom_width_mobile": 100,
+                        "aspect_ratio": "16\/9",
+                        "border": "solid",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                },
+                "group_ECWABA": {
+                    "type": "group",
+                    "name": "t:names.caption",
+                    "settings": {
+                        "content_direction": "row",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "flex-end",
+                        "align_baseline": true,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "link": "",
+                        "open_in_new_tab": false,
+                        "placeholder": "",
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "text_gK8DyR": {
+                            "type": "text",
+                            "name": "t:names.text",
+                            "settings": {
+                                "text": "<p>Um projeto de <strong>ALUNOS<\/strong> para <strong>alunos<\/strong>!<\/p><p>Descobre as nossas sebentas<\/p>",
+                                "width": "100%",
+                                "max_width": "normal",
+                                "alignment": "center",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "text_gK8DyR"
+                    ]
+                }
+            },
+            "block_order": [
+                "video_dMjzAQ",
+                "group_ECWABA"
+            ],
+            "name": "t:names.video_section",
+            "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 16,
+                "section_width": "full-width",
+                "section_height": "",
+                "section_height_custom": 50,
+                "background_media": "none",
+                "background_color": "{{ settings.color_palette.background }}",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 32
+            }
+        },
+        "slideshow_86mFhD": {
+            "type": "slideshow",
+            "blocks": {
+                "slide_FmxF93": {
+                    "type": "_slide",
+                    "settings": {
+                        "media_type_1": "image",
+                        "image_1": "shopify:\/\/shop_images\/Gemini_Generated_Image_upods6upods6upod.png",
+                        "content_direction": "column",
+                        "vertical_on_mobile": true,
+                        "horizontal_alignment": "flex-start",
+                        "vertical_alignment": "center",
+                        "align_baseline": false,
+                        "horizontal_alignment_flex_direction_column": "center",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "toggle_overlay": false,
+                        "overlay_color": "#00000026",
+                        "overlay_style": "solid",
+                        "gradient_direction": "to top",
+                        "padding-block-start": 48,
+                        "padding-block-end": 48,
+                        "padding-inline-start": 48,
+                        "padding-inline-end": 48
+                    },
+                    "blocks": {
+                        "text_nNxb8B": {
+                            "type": "text",
+                            "name": "t:names.heading",
+                            "settings": {
+                                "text": "<h2>Novidade<\/h2>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "text_WCDQzp": {
+                            "type": "text",
+                            "settings": {
+                                "text": "<p>Chegaram as explicações resume!<\/p>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 20,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "button_EQEtTJ": {
+                            "type": "button",
+                            "settings": {
+                                "label": "ver",
+                                "link": "shopify:\/\/collections\/explicacoes",
+                                "open_in_new_tab": false,
+                                "style_class": "button",
+                                "width": "fit-content",
+                                "custom_width": 100,
+                                "width_mobile": "fit-content",
+                                "custom_width_mobile": 100
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "text_nNxb8B",
+                        "text_WCDQzp",
+                        "button_EQEtTJ"
+                    ]
+                }
+            },
+            "block_order": [
+                "slide_FmxF93"
+            ],
+            "name": "t:names.slideshow_inset",
+            "settings": {
+                "display_mode": "with_hints",
+                "section_width": "full-width",
+                "full_frame_on_mobile": false,
+                "slideshow_gap": 18,
+                "corner_radius": 20,
+                "slide_height": "medium",
+                "content_position": "below-media",
+                "icons_style": "arrows_large",
+                "icons_shape": "none",
+                "slideshow_controls_style": "none",
+                "autoplay": false,
+                "autoplay_speed": 4,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+            }
+        },
+        "product_list_pgW4F4": {
+            "type": "product-list",
+            "blocks": {
+                "static-header": {
+                    "type": "_product-list-content",
+                    "name": "t:names.header",
+                    "static": true,
+                    "settings": {
+                        "content_direction": "row",
+                        "vertical_on_mobile": false,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "flex-end",
+                        "align_baseline": true,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "product_list_text_ihjFVL": {
+                            "type": "_product-list-text",
+                            "name": "t:names.collection_title",
+                            "settings": {
+                                "text": "<h3>{{ closest.collection.title }}<\/h3>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "product_list_button_nHYX4Q": {
+                            "type": "_product-list-button",
+                            "name": "t:names.product_list_button",
+                            "settings": {
+                                "label": "View all",
+                                "open_in_new_tab": false,
+                                "style_class": "button-unstyled",
+                                "width": "fit-content",
+                                "custom_width": 100,
+                                "width_mobile": "fit-content",
+                                "custom_width_mobile": 100
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "product_list_text_ihjFVL",
+                        "product_list_button_nHYX4Q"
+                    ]
+                },
+                "static-product-card": {
+                    "type": "_product-card",
+                    "name": "t:names.product_card",
+                    "static": true,
+                    "settings": {
+                        "product_card_gap": 4,
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "product_card_gallery_qrcRNP": {
+                            "type": "_product-card-gallery",
+                            "name": "t:names.product_card_media",
+                            "settings": {
+                                "image_ratio": "adapt",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 15,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "product_title_xppV3X": {
+                            "type": "product-title",
+                            "name": "t:names.product_title",
+                            "settings": {
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 4,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "price_66ni4P": {
+                            "type": "price",
+                            "name": "t:names.product_price",
+                            "settings": {
+                                "show_sale_price_first": true,
+                                "show_installments": false,
+                                "show_tax_info": false,
+                                "type_preset": "h6",
+                                "width": "100%",
+                                "alignment": "left",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "product_card_gallery_qrcRNP",
+                        "product_title_xppV3X",
+                        "price_66ni4P"
+                    ]
+                }
+            },
+            "name": "t:names.products_carousel",
+            "settings": {
+                "collection": "sebentas-para-exame",
+                "layout_type": "carousel",
+                "carousel_on_mobile": false,
+                "max_products": 6,
+                "columns": 4,
+                "mobile_columns": "2",
+                "mobile_card_size": "60cqw",
+                "columns_gap": 8,
+                "rows_gap": 24,
+                "icons_style": "arrow",
+                "icons_shape": "circle",
+                "section_width": "page-width",
+                "horizontal_alignment": "flex-start",
+                "gap": 28,
+                "background_color": "{{ settings.color_palette.background }}",
+                "padding-block-start": 48,
+                "padding-block-end": 48
+            }
+        },
+        "media_with_content_dxW8RB": {
+            "type": "media-with-content",
+            "blocks": {
+                "media": {
+                    "type": "_media-without-appearance",
+                    "static": true,
+                    "settings": {
+                        "media_type": "image",
+                        "image": "shopify:\/\/shop_images\/g-form-0-appearance.imageUrl-mj25nrjc-impressao-encadernacao-2-min_1.jpg",
+                        "link": "",
+                        "video_loop": true,
+                        "video_autoplay": false,
+                        "image_position": "cover",
+                        "video_position": "cover"
+                    },
+                    "blocks": {}
+                },
+                "content": {
+                    "type": "_content-without-appearance",
+                    "static": true,
+                    "settings": {
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "space-between",
+                        "gap": 24
+                    },
+                    "blocks": {
+                        "text_eVkWji": {
+                            "type": "text",
+                            "name": "t:names.caption",
+                            "settings": {
+                                "text": "<p>NOVIDADE<\/p>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "h6",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "group_84HQXW": {
+                            "type": "group",
+                            "settings": {
+                                "content_direction": "column",
+                                "vertical_on_mobile": true,
+                                "horizontal_alignment": "flex-start",
+                                "vertical_alignment": "center",
+                                "align_baseline": false,
+                                "horizontal_alignment_flex_direction_column": "flex-start",
+                                "vertical_alignment_flex_direction_column": "center",
+                                "gap": 12,
+                                "width": "fill",
+                                "custom_width": 100,
+                                "width_mobile": "fill",
+                                "custom_width_mobile": 100,
+                                "height": "fit",
+                                "custom_height": 100,
+                                "background_media": "none",
+                                "video_position": "cover",
+                                "background_image_position": "cover",
+                                "toggle_overlay": false,
+                                "overlay_color": "#00000026",
+                                "overlay_style": "solid",
+                                "gradient_direction": "to top",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0,
+                                "link": "",
+                                "open_in_new_tab": false,
+                                "placeholder": "",
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {
+                                "text_nbFcyJ": {
+                                    "type": "text",
+                                    "name": "t:names.heading",
+                                    "settings": {
+                                        "text": "<p>Impressão & Encadernação<\/p>",
+                                        "width": "fit-content",
+                                        "max_width": "normal",
+                                        "alignment": "left",
+                                        "type_preset": "h3",
+                                        "font": "var(--font-body--family)",
+                                        "font_size": "1rem",
+                                        "line_height": "normal",
+                                        "letter_spacing": "normal",
+                                        "case": "none",
+                                        "wrap": "pretty",
+                                        "background": false,
+                                        "background_color": "#00000026",
+                                        "corner_radius": 0,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {}
+                                },
+                                "text_fHLTNz": {
+                                    "type": "text",
+                                    "settings": {
+                                        "text": "<p>A nossa loja ficou ainda melhor: impressão, encadernação e personalização .<\/p><p>Rápido, prático e com qualidade!<\/p>",
+                                        "width": "fit-content",
+                                        "max_width": "narrow",
+                                        "alignment": "left",
+                                        "type_preset": "rte",
+                                        "font": "var(--font-body--family)",
+                                        "font_size": "1rem",
+                                        "line_height": "normal",
+                                        "letter_spacing": "normal",
+                                        "case": "none",
+                                        "wrap": "pretty",
+                                        "background": false,
+                                        "background_color": "#00000026",
+                                        "corner_radius": 0,
+                                        "padding-block-start": 0,
+                                        "padding-block-end": 0,
+                                        "padding-inline-start": 0,
+                                        "padding-inline-end": 0
+                                    },
+                                    "blocks": {}
+                                }
+                            },
+                            "block_order": [
+                                "text_nbFcyJ",
+                                "text_fHLTNz"
+                            ]
+                        },
+                        "button_ppLAKy": {
+                            "type": "button",
+                            "settings": {
+                                "label": "Ver",
+                                "link": "shopify:\/\/pages\/papelaria",
+                                "open_in_new_tab": false,
+                                "style_class": "button-unstyled",
+                                "width": "fit-content",
+                                "custom_width": 100,
+                                "width_mobile": "fit-content",
+                                "custom_width_mobile": 100
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "text_eVkWji",
+                        "group_84HQXW",
+                        "button_ppLAKy"
+                    ]
+                }
+            },
+            "disabled": true,
+            "name": "t:names.editorial",
+            "settings": {
+                "media_position": "left",
+                "media_width": "medium",
+                "media_height": "60svh",
+                "section_width": "full-width",
+                "extend_media": true,
+                "background_color": "{{ settings.color_palette.color4 }}",
+                "padding-block-start": 0,
+                "padding-block-end": 0
+            }
+        },
+        "product_list_xrRreR": {
+            "type": "product-list",
+            "blocks": {
+                "static-header": {
+                    "type": "_product-list-content",
+                    "name": "t:names.header",
+                    "static": true,
+                    "settings": {
+                        "content_direction": "row",
+                        "vertical_on_mobile": false,
+                        "horizontal_alignment": "space-between",
+                        "vertical_alignment": "flex-end",
+                        "align_baseline": true,
+                        "horizontal_alignment_flex_direction_column": "flex-start",
+                        "vertical_alignment_flex_direction_column": "center",
+                        "gap": 12,
+                        "width": "fill",
+                        "custom_width": 100,
+                        "width_mobile": "fill",
+                        "custom_width_mobile": 100,
+                        "height": "fit",
+                        "custom_height": 100,
+                        "background_media": "none",
+                        "video_position": "cover",
+                        "background_image_position": "cover",
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "product_list_text_zThVEe": {
+                            "type": "_product-list-text",
+                            "name": "t:names.collection_title",
+                            "settings": {
+                                "text": "<h4> Resumos Português<\/h4>",
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "product_list_button_gGNJJW": {
+                            "type": "_product-list-button",
+                            "name": "t:names.product_list_button",
+                            "settings": {
+                                "label": "View all",
+                                "open_in_new_tab": false,
+                                "style_class": "button-unstyled",
+                                "width": "fit-content",
+                                "custom_width": 100,
+                                "width_mobile": "fit-content",
+                                "custom_width_mobile": 100
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "product_list_text_zThVEe",
+                        "product_list_button_gGNJJW"
+                    ]
+                },
+                "static-product-card": {
+                    "type": "_product-card",
+                    "name": "t:names.product_card",
+                    "static": true,
+                    "settings": {
+                        "product_card_gap": 4,
+                        "border": "none",
+                        "border_width": 1,
+                        "border_opacity": 100,
+                        "border_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {
+                        "product_card_gallery_w34DWJ": {
+                            "type": "_product-card-gallery",
+                            "name": "t:names.product_card_media",
+                            "settings": {
+                                "image_ratio": "adapt",
+                                "border": "none",
+                                "border_width": 1,
+                                "border_opacity": 100,
+                                "border_radius": 0,
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "product_title_BU78w7": {
+                            "type": "product-title",
+                            "name": "t:names.product_title",
+                            "settings": {
+                                "width": "fit-content",
+                                "max_width": "normal",
+                                "alignment": "left",
+                                "type_preset": "rte",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "wrap": "pretty",
+                                "background": false,
+                                "background_color": "#00000026",
+                                "corner_radius": 0,
+                                "padding-block-start": 4,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        },
+                        "price_Bewb3E": {
+                            "type": "price",
+                            "name": "t:names.product_price",
+                            "settings": {
+                                "show_sale_price_first": true,
+                                "show_installments": false,
+                                "show_tax_info": false,
+                                "type_preset": "h6",
+                                "width": "100%",
+                                "alignment": "left",
+                                "font": "var(--font-body--family)",
+                                "font_size": "1rem",
+                                "line_height": "normal",
+                                "letter_spacing": "normal",
+                                "case": "none",
+                                "padding-block-start": 0,
+                                "padding-block-end": 0,
+                                "padding-inline-start": 0,
+                                "padding-inline-end": 0
+                            },
+                            "blocks": {}
+                        }
+                    },
+                    "block_order": [
+                        "product_card_gallery_w34DWJ",
+                        "product_title_BU78w7",
+                        "price_Bewb3E"
+                    ]
+                }
+            },
+            "name": "t:names.products_carousel",
+            "settings": {
+                "collection": "resumos-pt",
+                "layout_type": "carousel",
+                "carousel_on_mobile": false,
+                "max_products": 6,
+                "columns": 4,
+                "mobile_columns": "2",
+                "mobile_card_size": "60cqw",
+                "columns_gap": 8,
+                "rows_gap": 24,
+                "icons_style": "arrow",
+                "icons_shape": "circle",
+                "section_width": "page-width",
+                "horizontal_alignment": "flex-start",
+                "gap": 28,
+                "background_color": "{{ settings.color_palette.background }}",
+                "padding-block-start": 48,
+                "padding-block-end": 48
+            }
+        },
+        "hero_MVUtj6": {
+            "type": "hero",
+            "blocks": {
+                "text_69C6UJ": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<h2>Agora em Papel!<\/h2>",
+                        "width": "100%",
+                        "max_width": "normal",
+                        "alignment": "left",
+                        "type_preset": "h3",
+                        "font": "var(--font-primary--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "none",
+                        "wrap": "pretty",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                },
+                "text_hzq6cM": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p><a href=\"\/pages\/papelaria\" title=\"Papelaria\">Shop now<\/a><\/p>",
+                        "width": "fit-content",
+                        "max_width": "normal",
+                        "alignment": "right",
+                        "type_preset": "h6",
+                        "font": "var(--font-secondary--family)",
+                        "font_size": "",
+                        "line_height": "normal",
+                        "letter_spacing": "normal",
+                        "case": "uppercase",
+                        "wrap": "nowrap",
+                        "background": false,
+                        "background_color": "#00000026",
+                        "corner_radius": 0,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                    },
+                    "blocks": {}
+                }
+            },
+            "block_order": [
+                "text_69C6UJ",
+                "text_hzq6cM"
+            ],
+            "disabled": true,
+            "name": "t:names.hero",
+            "settings": {
+                "media_type_1": "image",
+                "image_1": "shopify:\/\/shop_images\/IMG_6745.heic",
+                "media_type_2": "image",
+                "stack_media_on_mobile": false,
+                "custom_mobile_media": false,
+                "media_type_1_mobile": "image",
+                "media_type_2_mobile": "image",
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "row",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "space-between",
+                "vertical_alignment": "flex-end",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "flex-end",
+                "gap": 16,
+                "section_width": "page-width",
+                "section_height": "large",
+                "section_height_custom": 60,
+                "background_color": "{{ settings.color_palette.background }}",
+                "toggle_overlay": true,
+                "overlay_color": "#00000075",
+                "overlay_style": "gradient",
+                "gradient_direction": "to top",
+                "blurred_reflection": false,
+                "reflection_opacity": 75,
+                "padding-block-start": 0,
+                "padding-block-end": 40
+            }
+        },
+        "17674654561c4f9d0d": {
+            "type": "_blocks",
+            "blocks": {
+                "judge_me_reviews_featured_carousel_AJhiPr": {
+                    "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+                    "settings": {
+                        "maxwidth": 1080
+                    }
+                }
+            },
+            "block_order": [
+                "judge_me_reviews_featured_carousel_AJhiPr"
+            ],
+            "settings": {
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "section_width": "page-width",
+                "section_height": "",
+                "section_height_custom": 50,
+                "background_media": "none",
+                "background_color": "{{ settings.color_palette.background }}",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0
+            }
+        }
+    },
+    "order": [
+        "hero_iyt6zg",
+        "marquee_PmbjAf",
+        "collection_links_Ut4aMz",
+        "section_iXjipR",
+        "collection_list_eUhGwD",
+        "media_with_content_Wfzcnr",
+        "product_list_UwRqN4",
+        "177413636945f202de",
+        "section_tzG4pH",
+        "section_jewPfV",
+        "section_tLhbHV",
+        "slideshow_86mFhD",
+        "product_list_pgW4F4",
+        "media_with_content_dxW8RB",
+        "product_list_xrRreR",
+        "hero_MVUtj6",
+        "17674654561c4f9d0d"
+    ]
+}
