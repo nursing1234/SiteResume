@@ -4,8 +4,8 @@
             "type": "resume-app-hero",
             "settings": {
                 "eyebrow": "Resume app",
-                "title": "A forma mais inteligente de estudar.",
-                "subtitle": "<p>Resumos, IA, quizzes, flashcards, exames nacionais e explicações. Tudo num só lugar.<\/p>",
+                "title": "Estuda melhor, sem perder tempo.",
+                "subtitle": "<p>Uma plataforma para organizar o estudo, treinar com quizzes e exames, usar IA quando tens dúvidas e comprar resumos quando precisas de estudar já.<\/p>",
                 "badges": "IA, Quizzes, Exames, Flashcards",
                 "badges_label": "Funcionalidades da app Resume",
                 "primary_label": "Descarregar app",
@@ -21,6 +21,68 @@
                 "float_card_3_text": "Testa o que sabes",
                 "float_card_4": "Resumos",
                 "float_card_4_text": "Prontos a usar",
+                "background_color": "#f7f4ee",
+                "text_color": "#171717",
+                "accent_color": "#5f6df2",
+                "soft_color": "#ebe8ff"
+            }
+        },
+        "resume_study_flow_phase_4": {
+            "type": "resume-study-flow",
+            "blocks": {
+                "study_flow_organizar": {
+                    "type": "step",
+                    "settings": {
+                        "title": "Organiza o que tens de estudar",
+                        "text": "Começa por perceber disciplinas, objetivos e tempo disponível para não estudares às cegas.",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "study_flow_aprender": {
+                    "type": "step",
+                    "settings": {
+                        "title": "Aprende com resumos e IA",
+                        "text": "Usa explicações simples, resumos prontos e apoio inteligente quando uma matéria não entra.",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "study_flow_treinar": {
+                    "type": "step",
+                    "settings": {
+                        "title": "Treina para testes e exames",
+                        "text": "Pratica com quizzes, flashcards e exames para perceber onde ainda tens de melhorar.",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "study_flow_reforcar": {
+                    "type": "step",
+                    "settings": {
+                        "title": "Reforça com a loja",
+                        "text": "Quando precisas de estudar agora, compra resumos organizados por disciplina.",
+                        "link_label": "Ver resumos",
+                        "link": "shopify:\/\/collections"
+                    }
+                }
+            },
+            "block_order": [
+                "study_flow_organizar",
+                "study_flow_aprender",
+                "study_flow_treinar",
+                "study_flow_reforcar"
+            ],
+            "settings": {
+                "eyebrow": "A tua rotina de estudo",
+                "title": "Entra, escolhe o que precisas e começa a estudar.",
+                "text": "<p>A Resume junta app, ferramentas de treino e loja de resumos para o aluno não andar perdido entre mil sítios diferentes.<\/p>",
+                "board_label": "Plano de hoje",
+                "board_title": "30 min de foco + 1 quiz + revisão por resumo",
+                "metric_1_label": "Disciplinas",
+                "metric_1_value": "8+",
+                "metric_2_label": "Ferramentas",
+                "metric_2_value": "Tudo",
                 "background_color": "#f7f4ee",
                 "text_color": "#171717",
                 "accent_color": "#5f6df2",
@@ -2278,6 +2340,7 @@
     },
     "order": [
         "resume_app_hero_phase_2",
+        "resume_study_flow_phase_4",
         "resume_app_features_phase_2",
         "product_list_UwRqN4",
         "resume_shop_highlight_phase_2",
