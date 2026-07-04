@@ -1,0 +1,162 @@
+<section class="resume-final-cta resume-final-cta-{{ section.id }}">
+  <div class="resume-final-cta__inner">
+    {% if section.settings.title != blank %}
+      <h2 class="resume-final-cta__title">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+
+    {% if section.settings.text != blank %}
+      <div class="resume-final-cta__text">{{ section.settings.text }}</div>
+    {% endif %}
+
+    <div class="resume-final-cta__actions">
+      {% if section.settings.primary_label != blank %}
+        <a class="resume-final-cta__button resume-final-cta__button--primary" href="{{ section.settings.primary_link | default: '#' }}">
+          {{ section.settings.primary_label | escape }}
+        </a>
+      {% endif %}
+
+      {% if section.settings.secondary_label != blank %}
+        <a class="resume-final-cta__button resume-final-cta__button--secondary" href="{{ section.settings.secondary_link | default: '#' }}">
+          {{ section.settings.secondary_label | escape }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .resume-final-cta-{{ section.id }} {
+    --resume-cta-bg: {{ section.settings.background_color }};
+    --resume-cta-text: {{ section.settings.text_color }};
+    --resume-cta-accent: {{ section.settings.accent_color }};
+    background: var(--resume-cta-bg);
+    color: var(--resume-cta-text);
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__inner {
+    width: min(980px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 64px 0;
+    text-align: center;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__title {
+    max-width: 780px;
+    margin: 0 auto;
+    color: inherit;
+    font-size: clamp(2.1rem, 6vw, 4.4rem);
+    line-height: 1;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__text {
+    max-width: 640px;
+    margin: 16px auto 0;
+    color: color-mix(in srgb, var(--resume-cta-text) 76%, transparent);
+    line-height: 1.55;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__text p {
+    margin: 0;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__button {
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 750;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__button--primary {
+    background: var(--resume-cta-accent);
+    color: #ffffff;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__button--secondary {
+    border: 1px solid color-mix(in srgb, var(--resume-cta-text) 18%, transparent);
+    background: #ffffff;
+    color: var(--resume-cta-text);
+  }
+
+  @media screen and (min-width: 900px) {
+    .resume-final-cta-{{ section.id }} .resume-final-cta__inner {
+      padding: 84px 0;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Resume final CTA",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titulo",
+      "default": "Comeca hoje a estudar de forma mais simples."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Texto",
+      "default": "<p>Usa a app para organizar o estudo ou explora os resumos prontos da loja.</p>"
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Texto do botao principal",
+      "default": "Download app"
+    },
+    {
+      "type": "url",
+      "id": "primary_link",
+      "label": "Link do botao principal"
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Texto do botao secundario",
+      "default": "Explorar resumos"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Link do botao secundario"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Cor de fundo",
+      "default": "#171717"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Cor do texto",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Cor principal",
+      "default": "#5f6df2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Resume final CTA"
+    }
+  ]
+}
+{% endschema %}

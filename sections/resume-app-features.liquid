@@ -1,0 +1,280 @@
+<section class="resume-app-features resume-app-features-{{ section.id }}">
+  <div class="resume-app-features__inner">
+    <div class="resume-app-features__header">
+      {% if section.settings.eyebrow != blank %}
+        <p class="resume-app-features__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {% endif %}
+
+      {% if section.settings.title != blank %}
+        <h2 class="resume-app-features__title">{{ section.settings.title | escape }}</h2>
+      {% endif %}
+
+      {% if section.settings.text != blank %}
+        <div class="resume-app-features__text">{{ section.settings.text }}</div>
+      {% endif %}
+    </div>
+
+    <div class="resume-app-features__grid">
+      {% for block in section.blocks %}
+        <article class="resume-app-features__card" {{ block.shopify_attributes }}>
+          {% if block.settings.icon != blank %}
+            <span class="resume-app-features__icon">{{ block.settings.icon | escape }}</span>
+          {% endif %}
+          {% if block.settings.title != blank %}
+            <h3 class="resume-app-features__card-title">{{ block.settings.title | escape }}</h3>
+          {% endif %}
+          {% if block.settings.text != blank %}
+            <p class="resume-app-features__card-text">{{ block.settings.text | escape }}</p>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .resume-app-features-{{ section.id }} {
+    --resume-features-bg: {{ section.settings.background_color }};
+    --resume-features-text: {{ section.settings.text_color }};
+    --resume-features-accent: {{ section.settings.accent_color }};
+    background: var(--resume-features-bg);
+    color: var(--resume-features-text);
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__inner {
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 56px 0;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__header {
+    max-width: 760px;
+    margin-bottom: 28px;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__eyebrow {
+    margin: 0 0 10px;
+    color: var(--resume-features-accent);
+    font-size: 0.82rem;
+    font-weight: 750;
+    text-transform: uppercase;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__title {
+    margin: 0;
+    color: inherit;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.02;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__text {
+    margin-top: 14px;
+    color: color-mix(in srgb, var(--resume-features-text) 72%, transparent);
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__text p {
+    margin: 0;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__card {
+    min-height: 162px;
+    border: 1px solid color-mix(in srgb, var(--resume-features-text) 10%, transparent);
+    border-radius: 22px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 14px 40px rgba(22, 22, 24, 0.06);
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    background: color-mix(in srgb, var(--resume-features-accent) 14%, white);
+    color: var(--resume-features-accent);
+    font-weight: 850;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__card-title {
+    margin: 0;
+    color: inherit;
+    font-size: 1.08rem;
+    line-height: 1.2;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__card-text {
+    margin: 10px 0 0;
+    color: color-mix(in srgb, var(--resume-features-text) 68%, transparent);
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+
+  @media screen and (min-width: 640px) {
+    .resume-app-features-{{ section.id }} .resume-app-features__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media screen and (min-width: 990px) {
+    .resume-app-features-{{ section.id }} .resume-app-features__inner {
+      padding: 72px 0;
+    }
+
+    .resume-app-features-{{ section.id }} .resume-app-features__grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Resume app features",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta",
+      "default": "Tudo para estudar melhor"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titulo",
+      "default": "Uma app para organizar o estudo do inicio ao fim."
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Texto",
+      "default": "<p>Ferramentas simples para rever materia, praticar, preparar exames e acompanhar o progresso.</p>"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Cor de fundo",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Cor do texto",
+      "default": "#171717"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Cor principal",
+      "default": "#5f6df2"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Funcionalidade",
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icone curto",
+          "default": "+"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titulo",
+          "default": "Funcionalidade"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Texto",
+          "default": "Edita este texto no Theme Editor."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Resume app features",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "IA",
+            "title": "Resumi IA",
+            "text": "Ajuda inteligente para transformar duvidas em explicacoes simples."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "R",
+            "title": "Resumos prontos",
+            "text": "Materiais organizados para rever a materia sem perder tempo."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "Q",
+            "title": "Quizzes",
+            "text": "Perguntas rapidas para testar o que ja sabes."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "EX",
+            "title": "Exames nacionais",
+            "text": "Treino focado nos momentos que contam."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "F",
+            "title": "Flashcards",
+            "text": "Memorizacao mais leve para conceitos importantes."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "T",
+            "title": "Cronometro de estudo",
+            "text": "Sessões de foco para manter ritmo e consistencia."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "%",
+            "title": "Calculadora de media",
+            "text": "Simula resultados e planeia os proximos passos."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "icon": "E",
+            "title": "Explicacoes",
+            "text": "Apoio extra quando precisas de desbloquear a materia."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

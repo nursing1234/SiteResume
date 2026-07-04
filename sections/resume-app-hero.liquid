@@ -1,0 +1,329 @@
+<section class="resume-app-hero resume-app-hero-{{ section.id }}">
+  <div class="resume-app-hero__inner">
+    <div class="resume-app-hero__content">
+      {% if section.settings.eyebrow != blank %}
+        <p class="resume-app-hero__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+      {% endif %}
+
+      {% if section.settings.title != blank %}
+        <h1 class="resume-app-hero__title">{{ section.settings.title | escape }}</h1>
+      {% endif %}
+
+      {% if section.settings.subtitle != blank %}
+        <div class="resume-app-hero__subtitle">{{ section.settings.subtitle }}</div>
+      {% endif %}
+
+      <div class="resume-app-hero__badges" aria-label="{{ section.settings.badges_label | escape }}">
+        {% assign badges = section.settings.badges | split: ',' %}
+        {% for badge in badges %}
+          {% assign badge_text = badge | strip %}
+          {% if badge_text != blank %}
+            <span class="resume-app-hero__badge">{{ badge_text | escape }}</span>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="resume-app-hero__actions">
+        {% if section.settings.primary_label != blank %}
+          <a class="resume-app-hero__button resume-app-hero__button--primary" href="{{ section.settings.primary_link | default: '#' }}">
+            {{ section.settings.primary_label | escape }}
+          </a>
+        {% endif %}
+
+        {% if section.settings.secondary_label != blank %}
+          <a class="resume-app-hero__button resume-app-hero__button--secondary" href="{{ section.settings.secondary_link | default: '#' }}">
+            {{ section.settings.secondary_label | escape }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="resume-app-hero__visual">
+      <div class="resume-app-hero__mockup">
+        {% if section.settings.image != blank %}
+          {{
+            section.settings.image
+            | image_url: width: 1200
+            | image_tag:
+              widths: '360, 540, 720, 960, 1200',
+              sizes: '(min-width: 990px) 44vw, 88vw',
+              class: 'resume-app-hero__image',
+              loading: 'eager',
+              alt: section.settings.image.alt
+          }}
+        {% else %}
+          <div class="resume-app-hero__placeholder" aria-hidden="true">
+            <div class="resume-app-hero__phone-top"></div>
+            <div class="resume-app-hero__placeholder-card resume-app-hero__placeholder-card--wide"></div>
+            <div class="resume-app-hero__placeholder-grid">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="resume-app-hero__placeholder-card"></div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .resume-app-hero-{{ section.id }} {
+    --resume-hero-bg: {{ section.settings.background_color }};
+    --resume-hero-text: {{ section.settings.text_color }};
+    --resume-hero-accent: {{ section.settings.accent_color }};
+    --resume-hero-soft: {{ section.settings.soft_color }};
+    background: var(--resume-hero-bg);
+    color: var(--resume-hero-text);
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__inner {
+    width: min(1180px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 56px 0 44px;
+    display: grid;
+    gap: 36px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__eyebrow {
+    margin: 0;
+    color: var(--resume-hero-accent);
+    font-size: 0.84rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__title {
+    max-width: 760px;
+    margin: 0;
+    color: inherit;
+    font-size: clamp(2.55rem, 7vw, 5.4rem);
+    line-height: 0.96;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__subtitle {
+    max-width: 650px;
+    color: color-mix(in srgb, var(--resume-hero-text) 78%, transparent);
+    font-size: 1.08rem;
+    line-height: 1.55;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__subtitle p {
+    margin: 0;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__badges,
+  .resume-app-hero-{{ section.id }} .resume-app-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__badge {
+    border: 1px solid color-mix(in srgb, var(--resume-hero-accent) 28%, transparent);
+    border-radius: 999px;
+    padding: 8px 12px;
+    background: color-mix(in srgb, var(--resume-hero-soft) 62%, white);
+    color: var(--resume-hero-text);
+    font-size: 0.9rem;
+    font-weight: 650;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__actions {
+    padding-top: 4px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__button {
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 750;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__button--primary {
+    background: var(--resume-hero-accent);
+    color: #ffffff;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__button--secondary {
+    border: 1px solid color-mix(in srgb, var(--resume-hero-text) 20%, transparent);
+    color: var(--resume-hero-text);
+    background: #ffffff;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__visual {
+    display: grid;
+    place-items: center;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__mockup {
+    width: min(100%, 520px);
+    border-radius: 28px;
+    padding: 14px;
+    background: color-mix(in srgb, var(--resume-hero-soft) 72%, white);
+    box-shadow: 0 22px 70px rgba(26, 29, 36, 0.12);
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__placeholder {
+    min-height: 390px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #ffffff;
+    display: grid;
+    gap: 18px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__phone-top {
+    width: 72px;
+    height: 8px;
+    border-radius: 99px;
+    background: color-mix(in srgb, var(--resume-hero-text) 16%, transparent);
+    justify-self: center;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__placeholder-card {
+    min-height: 86px;
+    border-radius: 18px;
+    background: var(--resume-hero-soft);
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__placeholder-card--wide {
+    min-height: 124px;
+    background: color-mix(in srgb, var(--resume-hero-accent) 16%, var(--resume-hero-soft));
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__placeholder-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .resume-app-hero-{{ section.id }} .resume-app-hero__placeholder-grid span {
+    min-height: 74px;
+    border-radius: 16px;
+    background: color-mix(in srgb, var(--resume-hero-text) 7%, var(--resume-hero-soft));
+  }
+
+  @media screen and (min-width: 900px) {
+    .resume-app-hero-{{ section.id }} .resume-app-hero__inner {
+      min-height: 680px;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      align-items: center;
+      padding: 72px 0 56px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Resume app hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta",
+      "default": "Resume app"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titulo",
+      "default": "A forma mais inteligente de estudar."
+    },
+    {
+      "type": "richtext",
+      "id": "subtitle",
+      "label": "Subtitulo",
+      "default": "<p>Resumos, IA, quizzes, flashcards, exames nacionais e explicacoes. Tudo num so lugar.</p>"
+    },
+    {
+      "type": "text",
+      "id": "badges",
+      "label": "Badges separados por virgula",
+      "default": "IA, Quizzes, Exames, Flashcards"
+    },
+    {
+      "type": "text",
+      "id": "badges_label",
+      "label": "Nome acessivel dos badges",
+      "default": "Funcionalidades da app"
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Texto do botao principal",
+      "default": "Descarregar app"
+    },
+    {
+      "type": "url",
+      "id": "primary_link",
+      "label": "Link do botao principal"
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Texto do botao secundario",
+      "default": "Ver resumos"
+    },
+    {
+      "type": "url",
+      "id": "secondary_link",
+      "label": "Link do botao secundario"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Imagem ou mockup"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Cor de fundo",
+      "default": "#f7f4ee"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Cor do texto",
+      "default": "#171717"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Cor principal",
+      "default": "#5f6df2"
+    },
+    {
+      "type": "color",
+      "id": "soft_color",
+      "label": "Cor suave",
+      "default": "#ebe8ff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Resume app hero"
+    }
+  ]
+}
+{% endschema %}

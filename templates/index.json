@@ -1,5 +1,140 @@
 {
     "sections": {
+        "resume_app_hero_phase_2": {
+            "type": "resume-app-hero",
+            "settings": {
+                "eyebrow": "Resume app",
+                "title": "A forma mais inteligente de estudar.",
+                "subtitle": "<p>Resumos, IA, quizzes, flashcards, exames nacionais e explicações. Tudo num só lugar.<\/p>",
+                "badges": "IA, Quizzes, Exames, Flashcards",
+                "badges_label": "Funcionalidades da app Resume",
+                "primary_label": "Descarregar app",
+                "primary_link": "",
+                "secondary_label": "Ver resumos",
+                "secondary_link": "shopify:\/\/collections",
+                "image": "shopify:\/\/shop_images\/Beige_Minimalist_Planner_Page_and_Download_Mockup_Instagram_Post_Portrait_1.png",
+                "background_color": "#f7f4ee",
+                "text_color": "#171717",
+                "accent_color": "#5f6df2",
+                "soft_color": "#ebe8ff"
+            }
+        },
+        "resume_app_features_phase_2": {
+            "type": "resume-app-features",
+            "blocks": {
+                "feature_resumi_ia": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "IA",
+                        "title": "Resumi IA",
+                        "text": "Ajuda inteligente para transformar dúvidas em explicações simples."
+                    }
+                },
+                "feature_resumos": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "R",
+                        "title": "Resumos prontos",
+                        "text": "Materiais organizados para rever a matéria sem perder tempo."
+                    }
+                },
+                "feature_quizzes": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "Q",
+                        "title": "Quizzes",
+                        "text": "Perguntas rápidas para testar o que já sabes."
+                    }
+                },
+                "feature_exames": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "EX",
+                        "title": "Exames nacionais",
+                        "text": "Treino focado nos momentos que contam."
+                    }
+                },
+                "feature_flashcards": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "F",
+                        "title": "Flashcards",
+                        "text": "Memorização mais leve para conceitos importantes."
+                    }
+                },
+                "feature_cronometro": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "T",
+                        "title": "Cronómetro de estudo",
+                        "text": "Sessões de foco para manter ritmo e consistência."
+                    }
+                },
+                "feature_calculadora": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "%",
+                        "title": "Calculadora de média",
+                        "text": "Simula resultados e planeia os próximos passos."
+                    }
+                },
+                "feature_explicacoes": {
+                    "type": "feature",
+                    "settings": {
+                        "icon": "E",
+                        "title": "Explicações",
+                        "text": "Apoio extra quando precisas de desbloquear a matéria."
+                    }
+                }
+            },
+            "block_order": [
+                "feature_resumi_ia",
+                "feature_resumos",
+                "feature_quizzes",
+                "feature_exames",
+                "feature_flashcards",
+                "feature_cronometro",
+                "feature_calculadora",
+                "feature_explicacoes"
+            ],
+            "settings": {
+                "eyebrow": "Tudo para estudar melhor",
+                "title": "Uma app para organizar o estudo do início ao fim.",
+                "text": "<p>Ferramentas simples para rever matéria, praticar, preparar exames e acompanhar o progresso.<\/p>",
+                "background_color": "#ffffff",
+                "text_color": "#171717",
+                "accent_color": "#5f6df2"
+            }
+        },
+        "resume_shop_highlight_phase_2": {
+            "type": "resume-shop-highlight",
+            "settings": {
+                "eyebrow": "Loja de resumos",
+                "title": "Precisas de estudar já?",
+                "text": "<p>Encontra resumos organizados por disciplina e preparados para testes e exames.<\/p>",
+                "button_label": "Explorar resumos",
+                "button_link": "shopify:\/\/collections",
+                "panel_text": "Resumos por disciplina",
+                "background_color": "#f7f4ee",
+                "card_color": "#ffffff",
+                "text_color": "#171717",
+                "accent_color": "#5f6df2"
+            }
+        },
+        "resume_final_cta_phase_2": {
+            "type": "resume-final-cta",
+            "settings": {
+                "title": "Começa hoje a estudar de forma mais simples.",
+                "text": "<p>Descarrega a app Resume ou explora os resumos prontos da loja.<\/p>",
+                "primary_label": "Download app",
+                "primary_link": "",
+                "secondary_label": "Explorar resumos",
+                "secondary_link": "shopify:\/\/collections",
+                "background_color": "#171717",
+                "text_color": "#ffffff",
+                "accent_color": "#5f6df2"
+            }
+        },
         "hero_iyt6zg": {
             "type": "hero",
             "settings": {
@@ -32,7 +167,8 @@
                 "reflection_opacity": 75,
                 "padding-block-start": 0,
                 "padding-block-end": 0
-            }
+            },
+            "disabled": true
         },
         "marquee_PmbjAf": {
             "type": "marquee",
@@ -217,6 +353,7 @@
                 "text_HMA7p7"
             ],
             "name": "t:names.rich_text_section",
+            "disabled": true,
             "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -382,6 +519,7 @@
                 "group_9zbUpz"
             ],
             "name": "t:names.collections_carousel",
+            "disabled": true,
             "settings": {
                 "collection_list": [
                     "resumos-bg",
@@ -2117,12 +2255,16 @@
         }
     },
     "order": [
-        "hero_iyt6zg",
-        "section_iXjipR",
+        "resume_app_hero_phase_2",
+        "resume_app_features_phase_2",
         "product_list_UwRqN4",
+        "resume_shop_highlight_phase_2",
         "slideshow_86mFhD",
         "section_tzG4pH",
         "17674654561c4f9d0d",
+        "resume_final_cta_phase_2",
+        "hero_iyt6zg",
+        "section_iXjipR",
         "collection_list_eUhGwD",
         "collection_links_Ut4aMz",
         "marquee_PmbjAf",
