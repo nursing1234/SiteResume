@@ -64,14 +64,14 @@
     --resume-flow-text: {{ section.settings.text_color }};
     --resume-flow-accent: {{ section.settings.accent_color }};
     --resume-flow-soft: {{ section.settings.soft_color }};
-    background: var(--resume-flow-bg);
+    background: linear-gradient(180deg, var(--resume-flow-bg), #ffffff);
     color: var(--resume-flow-text);
   }
 
   .resume-study-flow-{{ section.id }} .resume-study-flow__inner {
     width: min(1180px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 56px 0;
+    padding: 46px 0 58px;
   }
 
   .resume-study-flow-{{ section.id }} .resume-study-flow__intro {
@@ -95,8 +95,8 @@
     max-width: 780px;
     margin: 0;
     color: inherit;
-    font-size: clamp(2.1rem, 5vw, 4rem);
-    line-height: 1;
+    font-size: clamp(1.9rem, 4.2vw, 3.25rem);
+    line-height: 1.05;
   }
 
   .resume-study-flow-{{ section.id }} .resume-study-flow__text {
@@ -181,12 +181,12 @@
   }
 
   .resume-study-flow-{{ section.id }} .resume-study-flow__board {
-    min-height: 360px;
+    min-height: 320px;
     border-radius: 30px;
     padding: 20px;
     background:
-      linear-gradient(145deg, color-mix(in srgb, var(--resume-flow-accent) 18%, #ffffff), #ffffff);
-    box-shadow: 0 24px 70px rgba(22, 22, 24, 0.1);
+      linear-gradient(145deg, color-mix(in srgb, var(--resume-flow-accent) 13%, #ffffff), #ffffff);
+    box-shadow: 0 22px 62px rgba(70, 56, 43, 0.1);
     display: grid;
     align-content: space-between;
     gap: 16px;
@@ -222,8 +222,8 @@
   .resume-study-flow-{{ section.id }} .resume-study-flow__board-card strong {
     display: block;
     max-width: 320px;
-    font-size: clamp(1.7rem, 4vw, 2.6rem);
-    line-height: 1.02;
+    font-size: clamp(1.35rem, 2.4vw, 2rem);
+    line-height: 1.08;
   }
 
   .resume-study-flow-{{ section.id }} .resume-study-flow__mini-grid {
@@ -260,7 +260,7 @@
 
   @media screen and (min-width: 900px) {
     .resume-study-flow-{{ section.id }} .resume-study-flow__inner {
-      padding: 82px 0;
+      padding: 64px 0 72px;
     }
 
     .resume-study-flow-{{ section.id }} .resume-study-flow__layout {
@@ -333,25 +333,25 @@
       "type": "color",
       "id": "background_color",
       "label": "Cor de fundo",
-      "default": "#f7f4ee"
+      "default": "#fbfaf7"
     },
     {
       "type": "color",
       "id": "text_color",
       "label": "Cor do texto",
-      "default": "#171717"
+      "default": "#2b2520"
     },
     {
       "type": "color",
       "id": "accent_color",
       "label": "Cor principal",
-      "default": "#5f6df2"
+      "default": "#756251"
     },
     {
       "type": "color",
       "id": "soft_color",
       "label": "Cor suave",
-      "default": "#ebe8ff"
+      "default": "#efe8df"
     }
   ],
   "blocks": [

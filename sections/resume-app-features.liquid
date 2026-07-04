@@ -64,15 +64,14 @@
     --resume-features-bg: {{ section.settings.background_color }};
     --resume-features-text: {{ section.settings.text_color }};
     --resume-features-accent: {{ section.settings.accent_color }};
-    background:
-      linear-gradient(180deg, var(--resume-features-bg), color-mix(in srgb, var(--resume-features-accent) 5%, var(--resume-features-bg)));
+    background: var(--resume-features-bg);
     color: var(--resume-features-text);
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__inner {
     width: min(1180px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 62px 0;
+    padding: 56px 0;
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__header {
@@ -91,8 +90,8 @@
   .resume-app-features-{{ section.id }} .resume-app-features__title {
     margin: 0;
     color: inherit;
-    font-size: clamp(2.15rem, 5vw, 3.8rem);
-    line-height: 1.02;
+    font-size: clamp(1.95rem, 4.2vw, 3.25rem);
+    line-height: 1.05;
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__text {
@@ -112,9 +111,9 @@
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__reasons {
-    border-radius: 30px;
+    border-radius: 26px;
     padding: 22px;
-    background: color-mix(in srgb, var(--resume-features-accent) 9%, white);
+    background: color-mix(in srgb, var(--resume-features-accent) 8%, white);
     box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--resume-features-accent) 12%, transparent);
   }
 
@@ -134,7 +133,7 @@
   .resume-app-features-{{ section.id }} .resume-app-features__reasons-title {
     margin: 0;
     color: inherit;
-    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    font-size: clamp(1.45rem, 3.2vw, 2.25rem);
     line-height: 1.05;
   }
 
@@ -224,7 +223,7 @@
 
   @media screen and (min-width: 990px) {
     .resume-app-features-{{ section.id }} .resume-app-features__inner {
-      padding: 82px 0;
+      padding: 66px 0;
     }
 
     .resume-app-features-{{ section.id }} .resume-app-features__grid {
@@ -279,13 +278,13 @@
       "type": "color",
       "id": "text_color",
       "label": "Cor do texto",
-      "default": "#171717"
+      "default": "#2b2520"
     },
     {
       "type": "color",
       "id": "accent_color",
       "label": "Cor principal",
-      "default": "#5f6df2"
+      "default": "#756251"
     },
     {
       "type": "header",

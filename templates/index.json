@@ -4,8 +4,8 @@
             "type": "resume-app-hero",
             "settings": {
                 "eyebrow": "Resume app",
-                "title": "Estuda melhor, sem perder tempo.",
-                "subtitle": "<p>Uma plataforma para organizar o estudo, treinar com quizzes e exames, usar IA quando tens dúvidas e comprar resumos quando precisas de estudar já.<\/p>",
+                "title": "Tudo para estudares com mais calma.",
+                "subtitle": "<p>A Resume junta app, resumos, quizzes, exames, calculadora e explicações num espaço simples para alunos que querem estudar melhor sem complicar.<\/p>",
                 "badges": "IA, Quizzes, Exames, Flashcards",
                 "badges_label": "Funcionalidades da app Resume",
                 "primary_label": "Descarregar app",
@@ -21,10 +21,10 @@
                 "float_card_3_text": "Testa o que sabes",
                 "float_card_4": "Resumos",
                 "float_card_4_text": "Prontos a usar",
-                "background_color": "#f7f4ee",
-                "text_color": "#171717",
-                "accent_color": "#5f6df2",
-                "soft_color": "#ebe8ff"
+                "background_color": "#fbfaf7",
+                "text_color": "#2b2520",
+                "accent_color": "#756251",
+                "soft_color": "#efe8df"
             }
         },
         "resume_study_flow_phase_4": {
@@ -75,18 +75,18 @@
             ],
             "settings": {
                 "eyebrow": "A tua rotina de estudo",
-                "title": "Entra, escolhe o que precisas e começa a estudar.",
-                "text": "<p>A Resume junta app, ferramentas de treino e loja de resumos para o aluno não andar perdido entre mil sítios diferentes.<\/p>",
+                "title": "Uma página para encontrares rapidamente o que precisas.",
+                "text": "<p>Em vez de parecer só uma loja, a homepage passa a guiar o aluno: estudar na app, praticar, calcular médias, pedir explicações ou comprar resumos.<\/p>",
                 "board_label": "Plano de hoje",
                 "board_title": "30 min de foco + 1 quiz + revisão por resumo",
                 "metric_1_label": "Disciplinas",
                 "metric_1_value": "8+",
                 "metric_2_label": "Ferramentas",
                 "metric_2_value": "Tudo",
-                "background_color": "#f7f4ee",
-                "text_color": "#171717",
-                "accent_color": "#5f6df2",
-                "soft_color": "#ebe8ff"
+                "background_color": "#fbfaf7",
+                "text_color": "#2b2520",
+                "accent_color": "#756251",
+                "soft_color": "#efe8df"
             }
         },
         "resume_app_features_phase_2": {
@@ -169,11 +169,11 @@
             ],
             "settings": {
                 "eyebrow": "Tudo para estudar melhor",
-                "title": "Uma app para organizar o estudo do início ao fim.",
-                "text": "<p>Ferramentas simples para rever matéria, praticar, preparar exames e acompanhar o progresso.<\/p>",
+                "title": "Ferramentas que ajudam mesmo no dia a dia.",
+                "text": "<p>Menos ruído, mais organização: conteúdos prontos, treino e apoio para quando a matéria aperta.<\/p>",
                 "background_color": "#ffffff",
-                "text_color": "#171717",
-                "accent_color": "#5f6df2",
+                "text_color": "#2b2520",
+                "accent_color": "#756251",
                 "reasons_eyebrow": "Porque usar a Resume?",
                 "reasons_title": "Menos confusão. Mais foco no que interessa.",
                 "reason_1_icon": "⏱",
@@ -191,17 +191,17 @@
             "type": "resume-shop-highlight",
             "settings": {
                 "eyebrow": "Loja de resumos",
-                "title": "A loja continua pronta quando precisas de estudar agora.",
-                "text": "<p>Se precisas de estudar agora, os nossos resumos continuam disponíveis na loja.<\/p>",
+                "title": "Resumos prontos para quando o teste está perto.",
+                "text": "<p>Se precisas de estudar agora, os nossos resumos continuam disponíveis na loja, organizados por disciplina e pensados para rever sem perder tempo.<\/p>",
                 "button_label": "Ver resumos",
                 "button_link": "shopify:\/\/collections",
                 "secondary_button_label": "Ver explicações",
                 "secondary_button_link": "shopify:\/\/collections\/explicacoes",
                 "panel_text": "Resumos por disciplina",
-                "background_color": "#f7f4ee",
+                "background_color": "#fbfaf7",
                 "card_color": "#ffffff",
-                "text_color": "#171717",
-                "accent_color": "#5f6df2"
+                "text_color": "#2b2520",
+                "accent_color": "#756251"
             }
         },
         "resume_final_cta_phase_2": {
@@ -214,9 +214,9 @@
                 "primary_link": "",
                 "secondary_label": "Comprar resumos",
                 "secondary_link": "shopify:\/\/collections",
-                "background_color": "#171717",
+                "background_color": "#4b3d33",
                 "text_color": "#ffffff",
-                "accent_color": "#5f6df2"
+                "accent_color": "#a98f78"
             }
         },
         "hero_iyt6zg": {
@@ -729,7 +729,7 @@
                             "type": "_product-list-text",
                             "name": "t:names.collection_title",
                             "settings": {
-                                "text": "<h3>Para os teus exames<\/h3>",
+                                "text": "<h3>Resumos em destaque<\/h3>",
                                 "width": "100%",
                                 "max_width": "normal",
                                 "alignment": "center",
@@ -988,16 +988,16 @@
                 "columns": 4,
                 "mobile_columns": "2",
                 "mobile_card_size": "60cqw",
-                "columns_gap": 26,
-                "rows_gap": 36,
+                "columns_gap": 18,
+                "rows_gap": 28,
                 "icons_style": "arrow",
                 "icons_shape": "none",
                 "section_width": "page-width",
                 "horizontal_alignment": "flex-start",
                 "gap": 28,
                 "background_color": "{{ settings.color_palette.background }}",
-                "padding-block-start": 84,
-                "padding-block-end": 100
+                "padding-block-start": 36,
+                "padding-block-end": 64
             }
         },
         "177413636945f202de": {
@@ -2342,8 +2342,8 @@
         "resume_app_hero_phase_2",
         "resume_study_flow_phase_4",
         "resume_app_features_phase_2",
-        "product_list_UwRqN4",
         "resume_shop_highlight_phase_2",
+        "product_list_UwRqN4",
         "slideshow_86mFhD",
         "section_tzG4pH",
         "17674654561c4f9d0d",

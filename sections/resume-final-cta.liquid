@@ -33,16 +33,14 @@
     --resume-cta-bg: {{ section.settings.background_color }};
     --resume-cta-text: {{ section.settings.text_color }};
     --resume-cta-accent: {{ section.settings.accent_color }};
-    background:
-      radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--resume-cta-accent) 22%, transparent), transparent 34%),
-      var(--resume-cta-bg);
+    background: linear-gradient(135deg, var(--resume-cta-bg), color-mix(in srgb, var(--resume-cta-accent) 30%, var(--resume-cta-bg)));
     color: var(--resume-cta-text);
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__inner {
     width: min(980px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 70px 0;
+    padding: 64px 0;
     text-align: center;
   }
 
@@ -62,8 +60,8 @@
     max-width: 780px;
     margin: 0 auto;
     color: inherit;
-    font-size: clamp(2.35rem, 7vw, 5rem);
-    line-height: 0.96;
+    font-size: clamp(2rem, 5vw, 3.8rem);
+    line-height: 1.02;
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__text {
@@ -115,7 +113,7 @@
 
   @media screen and (min-width: 900px) {
     .resume-final-cta-{{ section.id }} .resume-final-cta__inner {
-      padding: 94px 0;
+      padding: 78px 0;
     }
   }
 
@@ -174,7 +172,7 @@
       "type": "color",
       "id": "background_color",
       "label": "Cor de fundo",
-      "default": "#171717"
+      "default": "#4b3d33"
     },
     {
       "type": "color",
@@ -186,7 +184,7 @@
       "type": "color",
       "id": "accent_color",
       "label": "Cor principal",
-      "default": "#5f6df2"
+      "default": "#a98f78"
     }
   ],
   "presets": [
