@@ -95,17 +95,17 @@
                 "feature_resumi_ia": {
                     "type": "feature",
                     "settings": {
-                        "icon": "✨",
+                        "icon": "IA",
                         "title": "Resumi IA",
-                        "text": "Ajuda inteligente para transformar dúvidas em explicações simples."
+                        "text": "Explica dúvidas e ajuda-te a perceber a matéria."
                     }
                 },
                 "feature_resumos": {
                     "type": "feature",
                     "settings": {
-                        "icon": "📚",
+                        "icon": "R",
                         "title": "Resumos prontos",
-                        "text": "Materiais organizados para rever a matéria sem perder tempo."
+                        "text": "Conteúdos organizados por disciplina para revisão rápida."
                     }
                 },
                 "feature_quizzes": {
@@ -119,25 +119,25 @@
                 "feature_exames": {
                     "type": "feature",
                     "settings": {
-                        "icon": "🎯",
+                        "icon": "EX",
                         "title": "Exames nacionais",
-                        "text": "Treino focado nos momentos que contam."
+                        "text": "Pratica com foco nas perguntas e critérios importantes."
                     }
                 },
                 "feature_flashcards": {
                     "type": "feature",
                     "settings": {
-                        "icon": "⚡",
+                        "icon": "FC",
                         "title": "Flashcards",
-                        "text": "Memorização mais leve para conceitos importantes."
+                        "text": "Revê conceitos-chave em sessões curtas."
                     }
                 },
                 "feature_cronometro": {
                     "type": "feature",
                     "settings": {
-                        "icon": "⏱",
+                        "icon": "T",
                         "title": "Cronómetro de estudo",
-                        "text": "Sessões de foco para manter ritmo e consistência."
+                        "text": "Define blocos de foco e acompanha o teu ritmo."
                     }
                 },
                 "feature_calculadora": {
@@ -151,9 +151,9 @@
                 "feature_explicacoes": {
                     "type": "feature",
                     "settings": {
-                        "icon": "💬",
+                        "icon": "?",
                         "title": "Explicações",
-                        "text": "Apoio extra quando precisas de desbloquear a matéria."
+                        "text": "Apoio extra quando precisas de ajuda personalizada."
                     }
                 }
             },
@@ -169,22 +169,22 @@
             ],
             "settings": {
                 "eyebrow": "Tudo para estudar melhor",
-                "title": "Ferramentas que ajudam mesmo no dia a dia.",
-                "text": "<p>Menos ruído, mais organização: conteúdos prontos, treino e apoio para quando a matéria aperta.<\/p>",
+                "title": "Ferramentas para estudar, treinar e rever.",
+                "text": "<p>Uma seleção simples do que o aluno mais usa antes de testes, exames e avaliações.<\/p>",
                 "background_color": "#ffffff",
                 "text_color": "#2b2520",
                 "accent_color": "#756251",
                 "reasons_eyebrow": "Porque usar a Resume?",
                 "reasons_title": "Menos confusão. Mais foco no que interessa.",
-                "reason_1_icon": "⏱",
+                "reason_1_icon": "01",
                 "reason_1_title": "Poupa tempo",
-                "reason_1_text": "Vai direto ao essencial com materiais e ferramentas prontos para estudar.",
-                "reason_2_icon": "📚",
+                "reason_1_text": "Encontra rapidamente o que precisas para começar.",
+                "reason_2_icon": "02",
                 "reason_2_title": "Estuda com organização",
-                "reason_2_text": "Centraliza resumos, quizzes, flashcards e calculadoras num só lugar.",
-                "reason_3_icon": "🎯",
+                "reason_2_text": "Mantém materiais, treino e objetivos no mesmo espaço.",
+                "reason_3_icon": "03",
                 "reason_3_title": "Treina para testes e exames",
-                "reason_3_text": "Pratica com foco nos momentos de avaliação e ganha confiança."
+                "reason_3_text": "Pratica antes das avaliações com mais confiança."
             }
         },
         "resume_shop_highlight_phase_2": {
@@ -198,8 +198,27 @@
                 "secondary_button_label": "Ver explicações",
                 "secondary_button_link": "shopify:\/\/collections\/explicacoes",
                 "panel_text": "Resumos por disciplina",
+                "panel_image": "",
                 "background_color": "#fbfaf7",
                 "card_color": "#ffffff",
+                "text_color": "#2b2520",
+                "accent_color": "#756251"
+            }
+        },
+        "resume_featured_products_phase_5": {
+            "type": "resume-featured-products",
+            "settings": {
+                "collection": "resumos-bg",
+                "max_products": 4,
+                "eyebrow": "Resumos em destaque",
+                "title": "Escolhe o resumo certo para começar.",
+                "text": "<p>Uma montra mais limpa para veres rapidamente disciplina, preço e página do produto.<\/p>",
+                "badge_label": "Resumo",
+                "card_link_label": "Ver",
+                "placeholder_label": "R",
+                "button_label": "Ver todos os resumos",
+                "button_link": "shopify:\/\/collections",
+                "background_color": "#ffffff",
                 "text_color": "#2b2520",
                 "accent_color": "#756251"
             }
@@ -693,6 +712,7 @@
         },
         "product_list_UwRqN4": {
             "type": "product-list",
+            "disabled": true,
             "blocks": {
                 "static-header": {
                     "type": "_product-list-content",
@@ -2343,6 +2363,7 @@
         "resume_study_flow_phase_4",
         "resume_app_features_phase_2",
         "resume_shop_highlight_phase_2",
+        "resume_featured_products_phase_5",
         "product_list_UwRqN4",
         "slideshow_86mFhD",
         "section_tzG4pH",
