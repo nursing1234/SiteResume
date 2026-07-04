@@ -13,6 +13,14 @@
                 "secondary_label": "Ver resumos",
                 "secondary_link": "shopify:\/\/collections",
                 "image": "shopify:\/\/shop_images\/Beige_Minimalist_Planner_Page_and_Download_Mockup_Instagram_Post_Portrait_1.png",
+                "float_card_1": "IA",
+                "float_card_1_text": "Explica a matéria",
+                "float_card_2": "Exames",
+                "float_card_2_text": "Treino focado",
+                "float_card_3": "Quizzes",
+                "float_card_3_text": "Testa o que sabes",
+                "float_card_4": "Resumos",
+                "float_card_4_text": "Prontos a usar",
                 "background_color": "#f7f4ee",
                 "text_color": "#171717",
                 "accent_color": "#5f6df2",
@@ -25,7 +33,7 @@
                 "feature_resumi_ia": {
                     "type": "feature",
                     "settings": {
-                        "icon": "IA",
+                        "icon": "✨",
                         "title": "Resumi IA",
                         "text": "Ajuda inteligente para transformar dúvidas em explicações simples."
                     }
@@ -33,7 +41,7 @@
                 "feature_resumos": {
                     "type": "feature",
                     "settings": {
-                        "icon": "R",
+                        "icon": "📚",
                         "title": "Resumos prontos",
                         "text": "Materiais organizados para rever a matéria sem perder tempo."
                     }
@@ -41,7 +49,7 @@
                 "feature_quizzes": {
                     "type": "feature",
                     "settings": {
-                        "icon": "Q",
+                        "icon": "✓",
                         "title": "Quizzes",
                         "text": "Perguntas rápidas para testar o que já sabes."
                     }
@@ -49,7 +57,7 @@
                 "feature_exames": {
                     "type": "feature",
                     "settings": {
-                        "icon": "EX",
+                        "icon": "🎯",
                         "title": "Exames nacionais",
                         "text": "Treino focado nos momentos que contam."
                     }
@@ -57,7 +65,7 @@
                 "feature_flashcards": {
                     "type": "feature",
                     "settings": {
-                        "icon": "F",
+                        "icon": "⚡",
                         "title": "Flashcards",
                         "text": "Memorização mais leve para conceitos importantes."
                     }
@@ -65,7 +73,7 @@
                 "feature_cronometro": {
                     "type": "feature",
                     "settings": {
-                        "icon": "T",
+                        "icon": "⏱",
                         "title": "Cronómetro de estudo",
                         "text": "Sessões de foco para manter ritmo e consistência."
                     }
@@ -81,7 +89,7 @@
                 "feature_explicacoes": {
                     "type": "feature",
                     "settings": {
-                        "icon": "E",
+                        "icon": "💬",
                         "title": "Explicações",
                         "text": "Apoio extra quando precisas de desbloquear a matéria."
                     }
@@ -103,17 +111,30 @@
                 "text": "<p>Ferramentas simples para rever matéria, praticar, preparar exames e acompanhar o progresso.<\/p>",
                 "background_color": "#ffffff",
                 "text_color": "#171717",
-                "accent_color": "#5f6df2"
+                "accent_color": "#5f6df2",
+                "reasons_eyebrow": "Porque usar a Resume?",
+                "reasons_title": "Menos confusão. Mais foco no que interessa.",
+                "reason_1_icon": "⏱",
+                "reason_1_title": "Poupa tempo",
+                "reason_1_text": "Vai direto ao essencial com materiais e ferramentas prontos para estudar.",
+                "reason_2_icon": "📚",
+                "reason_2_title": "Estuda com organização",
+                "reason_2_text": "Centraliza resumos, quizzes, flashcards e calculadoras num só lugar.",
+                "reason_3_icon": "🎯",
+                "reason_3_title": "Treina para testes e exames",
+                "reason_3_text": "Pratica com foco nos momentos de avaliação e ganha confiança."
             }
         },
         "resume_shop_highlight_phase_2": {
             "type": "resume-shop-highlight",
             "settings": {
                 "eyebrow": "Loja de resumos",
-                "title": "Precisas de estudar já?",
-                "text": "<p>Encontra resumos organizados por disciplina e preparados para testes e exames.<\/p>",
-                "button_label": "Explorar resumos",
+                "title": "A loja continua pronta quando precisas de estudar agora.",
+                "text": "<p>Se precisas de estudar agora, os nossos resumos continuam disponíveis na loja.<\/p>",
+                "button_label": "Ver resumos",
                 "button_link": "shopify:\/\/collections",
+                "secondary_button_label": "Ver explicações",
+                "secondary_button_link": "shopify:\/\/collections\/explicacoes",
                 "panel_text": "Resumos por disciplina",
                 "background_color": "#f7f4ee",
                 "card_color": "#ffffff",
@@ -124,11 +145,12 @@
         "resume_final_cta_phase_2": {
             "type": "resume-final-cta",
             "settings": {
-                "title": "Começa hoje a estudar de forma mais simples.",
-                "text": "<p>Descarrega a app Resume ou explora os resumos prontos da loja.<\/p>",
-                "primary_label": "Download app",
+                "eyebrow": "Pronta para estudar?",
+                "title": "Estuda melhor com a app. Reforça com os resumos.",
+                "text": "<p>Organiza o estudo na Resume e compra os materiais certos quando precisares de apoio extra.<\/p>",
+                "primary_label": "Descarregar app",
                 "primary_link": "",
-                "secondary_label": "Explorar resumos",
+                "secondary_label": "Comprar resumos",
                 "secondary_link": "shopify:\/\/collections",
                 "background_color": "#171717",
                 "text_color": "#ffffff",

@@ -15,6 +15,32 @@
     </div>
 
     <div class="resume-app-features__grid">
+      <div class="resume-app-features__reasons">
+        <div class="resume-app-features__reasons-header">
+          <p class="resume-app-features__reasons-eyebrow">{{ section.settings.reasons_eyebrow | escape }}</p>
+          <h3 class="resume-app-features__reasons-title">{{ section.settings.reasons_title | escape }}</h3>
+        </div>
+
+        <div class="resume-app-features__reasons-grid">
+          <article class="resume-app-features__reason-card">
+            <span>{{ section.settings.reason_1_icon | escape }}</span>
+            <h4>{{ section.settings.reason_1_title | escape }}</h4>
+            <p>{{ section.settings.reason_1_text | escape }}</p>
+          </article>
+          <article class="resume-app-features__reason-card">
+            <span>{{ section.settings.reason_2_icon | escape }}</span>
+            <h4>{{ section.settings.reason_2_title | escape }}</h4>
+            <p>{{ section.settings.reason_2_text | escape }}</p>
+          </article>
+          <article class="resume-app-features__reason-card">
+            <span>{{ section.settings.reason_3_icon | escape }}</span>
+            <h4>{{ section.settings.reason_3_title | escape }}</h4>
+            <p>{{ section.settings.reason_3_text | escape }}</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="resume-app-features__tools">
       {% for block in section.blocks %}
         <article class="resume-app-features__card" {{ block.shopify_attributes }}>
           {% if block.settings.icon != blank %}
@@ -28,6 +54,7 @@
           {% endif %}
         </article>
       {% endfor %}
+      </div>
     </div>
   </div>
 </section>
@@ -37,19 +64,20 @@
     --resume-features-bg: {{ section.settings.background_color }};
     --resume-features-text: {{ section.settings.text_color }};
     --resume-features-accent: {{ section.settings.accent_color }};
-    background: var(--resume-features-bg);
+    background:
+      linear-gradient(180deg, var(--resume-features-bg), color-mix(in srgb, var(--resume-features-accent) 5%, var(--resume-features-bg)));
     color: var(--resume-features-text);
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__inner {
     width: min(1180px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 56px 0;
+    padding: 62px 0;
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__header {
-    max-width: 760px;
-    margin-bottom: 28px;
+    max-width: 820px;
+    margin-bottom: 30px;
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__eyebrow {
@@ -63,7 +91,7 @@
   .resume-app-features-{{ section.id }} .resume-app-features__title {
     margin: 0;
     color: inherit;
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(2.15rem, 5vw, 3.8rem);
     line-height: 1.02;
   }
 
@@ -80,29 +108,96 @@
 
   .resume-app-features-{{ section.id }} .resume-app-features__grid {
     display: grid;
+    gap: 22px;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reasons {
+    border-radius: 30px;
+    padding: 22px;
+    background: color-mix(in srgb, var(--resume-features-accent) 9%, white);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--resume-features-accent) 12%, transparent);
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reasons-header {
+    max-width: 650px;
+    margin-bottom: 18px;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reasons-eyebrow {
+    margin: 0 0 8px;
+    color: var(--resume-features-accent);
+    font-size: 0.78rem;
+    font-weight: 850;
+    text-transform: uppercase;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reasons-title {
+    margin: 0;
+    color: inherit;
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    line-height: 1.05;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reasons-grid,
+  .resume-app-features-{{ section.id }} .resume-app-features__tools {
+    display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
     gap: 12px;
   }
 
-  .resume-app-features-{{ section.id }} .resume-app-features__card {
-    min-height: 162px;
-    border: 1px solid color-mix(in srgb, var(--resume-features-text) 10%, transparent);
+  .resume-app-features-{{ section.id }} .resume-app-features__reason-card {
     border-radius: 22px;
     padding: 20px;
-    background: #ffffff;
-    box-shadow: 0 14px 40px rgba(22, 22, 24, 0.06);
+    background: color-mix(in srgb, white 88%, transparent);
+    box-shadow: 0 14px 34px rgba(22, 22, 24, 0.06);
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reason-card span {
+    display: inline-flex;
+    margin-bottom: 14px;
+    font-size: 1.25rem;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reason-card h4 {
+    margin: 0;
+    color: inherit;
+    font-size: 1.12rem;
+    line-height: 1.2;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__reason-card p {
+    margin: 10px 0 0;
+    color: color-mix(in srgb, var(--resume-features-text) 68%, transparent);
+    line-height: 1.45;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__card {
+    min-height: 172px;
+    border: 1px solid color-mix(in srgb, var(--resume-features-text) 10%, transparent);
+    border-radius: 24px;
+    padding: 22px;
+    background: color-mix(in srgb, white 92%, transparent);
+    box-shadow: 0 14px 40px rgba(22, 22, 24, 0.055);
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  }
+
+  .resume-app-features-{{ section.id }} .resume-app-features__card:hover {
+    transform: translateY(-4px);
+    border-color: color-mix(in srgb, var(--resume-features-accent) 24%, transparent);
+    box-shadow: 0 20px 46px rgba(22, 22, 24, 0.09);
   }
 
   .resume-app-features-{{ section.id }} .resume-app-features__icon {
     width: 40px;
     height: 40px;
-    border-radius: 14px;
+    border-radius: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
     background: color-mix(in srgb, var(--resume-features-accent) 14%, white);
     color: var(--resume-features-accent);
+    font-size: 0.95rem;
     font-weight: 850;
   }
 
@@ -121,17 +216,31 @@
   }
 
   @media screen and (min-width: 640px) {
-    .resume-app-features-{{ section.id }} .resume-app-features__grid {
+    .resume-app-features-{{ section.id }} .resume-app-features__reasons-grid,
+    .resume-app-features-{{ section.id }} .resume-app-features__tools {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
   @media screen and (min-width: 990px) {
     .resume-app-features-{{ section.id }} .resume-app-features__inner {
-      padding: 72px 0;
+      padding: 82px 0;
     }
 
     .resume-app-features-{{ section.id }} .resume-app-features__grid {
+      gap: 28px;
+    }
+
+    .resume-app-features-{{ section.id }} .resume-app-features__reasons {
+      padding: 30px;
+    }
+
+    .resume-app-features-{{ section.id }} .resume-app-features__reasons-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .resume-app-features-{{ section.id }} .resume-app-features__tools {
       grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 16px;
     }
@@ -177,6 +286,76 @@
       "id": "accent_color",
       "label": "Cor principal",
       "default": "#5f6df2"
+    },
+    {
+      "type": "header",
+      "content": "Porque usar a Resume?"
+    },
+    {
+      "type": "text",
+      "id": "reasons_eyebrow",
+      "label": "Etiqueta",
+      "default": "Porque usar a Resume?"
+    },
+    {
+      "type": "text",
+      "id": "reasons_title",
+      "label": "Titulo",
+      "default": "Menos confusão. Mais foco no que interessa."
+    },
+    {
+      "type": "text",
+      "id": "reason_1_icon",
+      "label": "Icone do card 1",
+      "default": "⏱"
+    },
+    {
+      "type": "text",
+      "id": "reason_1_title",
+      "label": "Titulo do card 1",
+      "default": "Poupa tempo"
+    },
+    {
+      "type": "text",
+      "id": "reason_1_text",
+      "label": "Texto do card 1",
+      "default": "Vai direto ao essencial com materiais e ferramentas prontos para estudar."
+    },
+    {
+      "type": "text",
+      "id": "reason_2_icon",
+      "label": "Icone do card 2",
+      "default": "📚"
+    },
+    {
+      "type": "text",
+      "id": "reason_2_title",
+      "label": "Titulo do card 2",
+      "default": "Estuda com organização"
+    },
+    {
+      "type": "text",
+      "id": "reason_2_text",
+      "label": "Texto do card 2",
+      "default": "Centraliza resumos, quizzes, flashcards e calculadoras num só lugar."
+    },
+    {
+      "type": "text",
+      "id": "reason_3_icon",
+      "label": "Icone do card 3",
+      "default": "🎯"
+    },
+    {
+      "type": "text",
+      "id": "reason_3_title",
+      "label": "Titulo do card 3",
+      "default": "Treina para testes e exames"
+    },
+    {
+      "type": "text",
+      "id": "reason_3_text",
+      "label": "Texto do card 3",
+      "default": "Pratica com foco nos momentos de avaliação e ganha confiança."
     }
   ],
   "blocks": [

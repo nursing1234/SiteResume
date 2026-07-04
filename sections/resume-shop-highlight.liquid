@@ -13,11 +13,19 @@
         <div class="resume-shop-highlight__text">{{ section.settings.text }}</div>
       {% endif %}
 
-      {% if section.settings.button_label != blank %}
-        <a class="resume-shop-highlight__button" href="{{ section.settings.button_link | default: '#' }}">
-          {{ section.settings.button_label | escape }}
-        </a>
-      {% endif %}
+      <div class="resume-shop-highlight__actions">
+        {% if section.settings.button_label != blank %}
+          <a class="resume-shop-highlight__button resume-shop-highlight__button--primary" href="{{ section.settings.button_link | default: '#' }}">
+            {{ section.settings.button_label | escape }}
+          </a>
+        {% endif %}
+
+        {% if section.settings.secondary_button_label != blank %}
+          <a class="resume-shop-highlight__button resume-shop-highlight__button--secondary" href="{{ section.settings.secondary_button_link | default: '#' }}">
+            {{ section.settings.secondary_button_label | escape }}
+          </a>
+        {% endif %}
+      </div>
     </div>
 
     <div class="resume-shop-highlight__panel" aria-hidden="true">
@@ -39,24 +47,26 @@
     --resume-shop-accent: {{ section.settings.accent_color }};
     background: var(--resume-shop-bg);
     color: var(--resume-shop-text);
+    overflow: hidden;
   }
 
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__inner {
     width: min(1180px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 56px 0;
+    padding: 64px 0;
     display: grid;
     gap: 22px;
   }
 
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__content,
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__panel {
-    border-radius: 28px;
+    border-radius: 32px;
     background: var(--resume-shop-card);
   }
 
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__content {
-    padding: 28px;
+    padding: 30px;
+    box-shadow: 0 18px 60px rgba(22, 22, 24, 0.07);
   }
 
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__eyebrow {
@@ -71,7 +81,7 @@
     max-width: 720px;
     margin: 0;
     color: inherit;
-    font-size: clamp(2rem, 5vw, 3.7rem);
+    font-size: clamp(2.15rem, 5vw, 3.9rem);
     line-height: 1.02;
   }
 
@@ -87,18 +97,39 @@
     margin: 0;
   }
 
+  .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__button {
     min-height: 48px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top: 24px;
     border-radius: 999px;
     padding: 0 20px;
-    background: var(--resume-shop-accent);
-    color: #ffffff;
     text-decoration: none;
     font-weight: 750;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 30px rgba(22, 22, 24, 0.1);
+  }
+
+  .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__button--primary {
+    background: var(--resume-shop-accent);
+    color: #ffffff;
+  }
+
+  .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__button--secondary {
+    border: 1px solid color-mix(in srgb, var(--resume-shop-text) 15%, transparent);
+    background: #ffffff;
+    color: var(--resume-shop-text);
   }
 
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__panel {
@@ -107,7 +138,8 @@
     display: grid;
     align-content: space-between;
     overflow: hidden;
-    background: color-mix(in srgb, var(--resume-shop-accent) 12%, var(--resume-shop-card));
+    background:
+      linear-gradient(145deg, color-mix(in srgb, var(--resume-shop-accent) 13%, white), color-mix(in srgb, var(--resume-shop-accent) 8%, var(--resume-shop-card)));
   }
 
   .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__shelf {
@@ -150,6 +182,12 @@
       padding: 44px;
     }
   }
+
+  @media screen and (max-width: 749px) {
+    .resume-shop-highlight-{{ section.id }} .resume-shop-highlight__button {
+      width: 100%;
+    }
+  }
 </style>
 
 {% schema %}
@@ -166,24 +204,35 @@
       "type": "text",
       "id": "title",
       "label": "Titulo",
-      "default": "Precisas de estudar ja?"
+      "default": "A loja continua pronta quando precisas de estudar agora."
     },
     {
       "type": "richtext",
       "id": "text",
       "label": "Texto",
-      "default": "<p>Encontra resumos organizados por disciplina e preparados para testes e exames.</p>"
+      "default": "<p>Se precisas de estudar agora, os nossos resumos continuam disponíveis na loja.</p>"
     },
     {
       "type": "text",
       "id": "button_label",
       "label": "Texto do botao",
-      "default": "Explorar resumos"
+      "default": "Ver resumos"
     },
     {
       "type": "url",
       "id": "button_link",
       "label": "Link do botao"
+    },
+    {
+      "type": "text",
+      "id": "secondary_button_label",
+      "label": "Texto do botao secundario",
+      "default": "Ver explicações"
+    },
+    {
+      "type": "url",
+      "id": "secondary_button_link",
+      "label": "Link do botao secundario"
     },
     {
       "type": "text",

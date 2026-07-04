@@ -1,5 +1,9 @@
 <section class="resume-final-cta resume-final-cta-{{ section.id }}">
   <div class="resume-final-cta__inner">
+    {% if section.settings.eyebrow != blank %}
+      <p class="resume-final-cta__eyebrow">{{ section.settings.eyebrow | escape }}</p>
+    {% endif %}
+
     {% if section.settings.title != blank %}
       <h2 class="resume-final-cta__title">{{ section.settings.title | escape }}</h2>
     {% endif %}
@@ -29,23 +33,37 @@
     --resume-cta-bg: {{ section.settings.background_color }};
     --resume-cta-text: {{ section.settings.text_color }};
     --resume-cta-accent: {{ section.settings.accent_color }};
-    background: var(--resume-cta-bg);
+    background:
+      radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--resume-cta-accent) 22%, transparent), transparent 34%),
+      var(--resume-cta-bg);
     color: var(--resume-cta-text);
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__inner {
     width: min(980px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 64px 0;
+    padding: 70px 0;
     text-align: center;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__eyebrow {
+    width: fit-content;
+    margin: 0 auto 14px;
+    border: 1px solid color-mix(in srgb, var(--resume-cta-text) 16%, transparent);
+    border-radius: 999px;
+    padding: 8px 12px;
+    color: color-mix(in srgb, var(--resume-cta-text) 78%, transparent);
+    font-size: 0.78rem;
+    font-weight: 850;
+    text-transform: uppercase;
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__title {
     max-width: 780px;
     margin: 0 auto;
     color: inherit;
-    font-size: clamp(2.1rem, 6vw, 4.4rem);
-    line-height: 1;
+    font-size: clamp(2.35rem, 7vw, 5rem);
+    line-height: 0.96;
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__text {
@@ -64,18 +82,24 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-    margin-top: 28px;
+    margin-top: 32px;
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__button {
-    min-height: 48px;
+    min-height: 54px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     border-radius: 999px;
-    padding: 0 20px;
+    padding: 0 24px;
     text-decoration: none;
-    font-weight: 750;
+    font-weight: 850;
+    transition: transform 180ms ease, box-shadow 180ms ease;
+  }
+
+  .resume-final-cta-{{ section.id }} .resume-final-cta__button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
   }
 
   .resume-final-cta-{{ section.id }} .resume-final-cta__button--primary {
@@ -91,7 +115,13 @@
 
   @media screen and (min-width: 900px) {
     .resume-final-cta-{{ section.id }} .resume-final-cta__inner {
-      padding: 84px 0;
+      padding: 94px 0;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .resume-final-cta-{{ section.id }} .resume-final-cta__button {
+      width: 100%;
     }
   }
 </style>
@@ -102,21 +132,27 @@
   "settings": [
     {
       "type": "text",
+      "id": "eyebrow",
+      "label": "Etiqueta",
+      "default": "Pronta para estudar?"
+    },
+    {
+      "type": "text",
       "id": "title",
       "label": "Titulo",
-      "default": "Comeca hoje a estudar de forma mais simples."
+      "default": "Estuda melhor com a app. Reforca com os resumos."
     },
     {
       "type": "richtext",
       "id": "text",
       "label": "Texto",
-      "default": "<p>Usa a app para organizar o estudo ou explora os resumos prontos da loja.</p>"
+      "default": "<p>Organiza o estudo na Resume e compra os materiais certos quando precisares de apoio extra.</p>"
     },
     {
       "type": "text",
       "id": "primary_label",
       "label": "Texto do botao principal",
-      "default": "Download app"
+      "default": "Descarregar app"
     },
     {
       "type": "url",
@@ -127,7 +163,7 @@
       "type": "text",
       "id": "secondary_label",
       "label": "Texto do botao secundario",
-      "default": "Explorar resumos"
+      "default": "Comprar resumos"
     },
     {
       "type": "url",
