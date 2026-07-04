@@ -91,6 +91,7 @@
                 "text_YxeTtY",
                 "text_JpMKPh"
             ],
+            "disabled": true,
             "name": "t:names.marquee_section",
             "settings": {
                 "movement_direction": "normal",
@@ -137,6 +138,7 @@
                     "block_order": []
                 }
             },
+            "disabled": true,
             "name": "Collection links",
             "settings": {
                 "collection_list": [
@@ -288,7 +290,7 @@
                             "type": "text",
                             "name": "t:names.text",
                             "settings": {
-                                "text": "",
+                                "text": "<h2>Escolhe o teu próximo resumo<\/h2>",
                                 "width": "fit-content",
                                 "max_width": "normal",
                                 "alignment": "left",
@@ -455,6 +457,7 @@
                 }
             },
             "name": "t:names.editorial_jumbo_text",
+            "disabled": true,
             "settings": {
                 "media_position": "right",
                 "media_width": "medium",
@@ -777,6 +780,7 @@
         },
         "177413636945f202de": {
             "type": "_blocks",
+            "disabled": true,
             "settings": {
                 "content_direction": "column",
                 "vertical_on_mobile": true,
@@ -1278,6 +1282,7 @@
                 "video_dMjzAQ",
                 "group_ECWABA"
             ],
+            "disabled": true,
             "name": "t:names.video_section",
             "settings": {
                 "content_direction": "column",
@@ -1592,6 +1597,7 @@
                 }
             },
             "name": "t:names.products_carousel",
+            "disabled": true,
             "settings": {
                 "collection": "sebentas-para-exame",
                 "layout_type": "carousel",
@@ -1957,6 +1963,7 @@
                 }
             },
             "name": "t:names.products_carousel",
+            "disabled": true,
             "settings": {
                 "collection": "resumos-pt",
                 "layout_type": "carousel",
@@ -2111,21 +2118,21 @@
     },
     "order": [
         "hero_iyt6zg",
-        "marquee_PmbjAf",
-        "collection_links_Ut4aMz",
         "section_iXjipR",
-        "collection_list_eUhGwD",
-        "media_with_content_Wfzcnr",
         "product_list_UwRqN4",
-        "177413636945f202de",
-        "section_tzG4pH",
-        "section_jewPfV",
-        "section_tLhbHV",
         "slideshow_86mFhD",
+        "section_tzG4pH",
+        "17674654561c4f9d0d",
+        "collection_list_eUhGwD",
+        "collection_links_Ut4aMz",
+        "marquee_PmbjAf",
+        "media_with_content_Wfzcnr",
+        "177413636945f202de",
+        "section_tLhbHV",
         "product_list_pgW4F4",
         "media_with_content_dxW8RB",
         "product_list_xrRreR",
         "hero_MVUtj6",
-        "17674654561c4f9d0d"
+        "section_jewPfV"
     ]
 }
